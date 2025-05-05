@@ -112,5 +112,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions or collaborations, don't hesitate to reach out:
 
-- Email: contact@your-domain.com
-- LinkedIn: [Your Profile](https://www.linkedin.com/in/your-profile/)
+- Email: ayoubanhal01@gmail.com
+- LinkedIn: [Your Profile](www.linkedin.com/in/ayoub-anhal)
