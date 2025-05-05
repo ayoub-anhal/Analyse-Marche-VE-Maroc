@@ -1,0 +1,915 @@
+[2025-05-01T12:14:38.442+0000] {processor.py:186} INFO - Started process (PID=125) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:14:38.444+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:14:38.454+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:14:38.453+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:14:38.484+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:14:38.525+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.098 seconds
+[2025-05-01T12:15:09.128+0000] {processor.py:186} INFO - Started process (PID=132) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:15:09.130+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:15:09.135+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:15:09.134+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:15:09.155+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:15:09.174+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.059 seconds
+[2025-05-01T12:16:40.106+0000] {processor.py:186} INFO - Started process (PID=29) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:16:40.108+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:16:40.118+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:16:40.116+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:16:40.144+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:16:40.174+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.075 seconds
+[2025-05-01T12:17:11.267+0000] {processor.py:186} INFO - Started process (PID=36) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:17:11.270+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:17:11.283+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:17:11.283+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:17:11.320+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:17:11.362+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.118 seconds
+[2025-05-01T12:17:42.199+0000] {processor.py:186} INFO - Started process (PID=43) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:17:42.207+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:17:42.221+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:17:42.218+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:17:42.282+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:17:42.349+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.181 seconds
+[2025-05-01T12:18:13.472+0000] {processor.py:186} INFO - Started process (PID=50) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:18:13.483+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:18:13.490+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:18:13.489+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:18:13.520+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:18:13.569+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.116 seconds
+[2025-05-01T12:18:44.833+0000] {processor.py:186} INFO - Started process (PID=57) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:18:44.837+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:18:44.843+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:18:44.843+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:18:44.877+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:18:44.922+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.113 seconds
+[2025-05-01T12:19:15.701+0000] {processor.py:186} INFO - Started process (PID=64) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:19:15.702+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:19:15.707+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:19:15.706+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:19:15.734+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:19:15.770+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.082 seconds
+[2025-05-01T12:19:46.643+0000] {processor.py:186} INFO - Started process (PID=71) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:19:46.649+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:19:46.656+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:19:46.655+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:19:46.685+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:19:46.727+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.098 seconds
+[2025-05-01T12:20:17.552+0000] {processor.py:186} INFO - Started process (PID=78) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:20:17.555+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:20:17.560+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:20:17.560+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:20:17.583+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:20:17.617+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.075 seconds
+[2025-05-01T12:20:48.238+0000] {processor.py:186} INFO - Started process (PID=85) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:20:48.240+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:20:48.246+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:20:48.245+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:20:48.269+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:20:48.295+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.070 seconds
+[2025-05-01T12:21:18.887+0000] {processor.py:186} INFO - Started process (PID=92) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:21:18.889+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:21:18.893+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:21:18.892+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:21:18.911+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:21:18.936+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.059 seconds
+[2025-05-01T12:21:49.744+0000] {processor.py:186} INFO - Started process (PID=99) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:21:49.747+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:21:49.755+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:21:49.754+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:21:49.776+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:21:49.808+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.078 seconds
+[2025-05-01T12:22:20.627+0000] {processor.py:186} INFO - Started process (PID=106) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:22:20.640+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:22:20.646+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:22:20.646+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:22:20.682+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:22:20.732+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.126 seconds
+[2025-05-01T12:22:50.964+0000] {processor.py:186} INFO - Started process (PID=113) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:22:50.969+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:22:50.979+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:22:50.978+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:22:51.009+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:22:51.042+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.093 seconds
+[2025-05-01T12:23:21.563+0000] {processor.py:186} INFO - Started process (PID=120) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:23:21.566+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:23:21.571+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:23:21.570+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:23:21.610+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:23:21.633+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.086 seconds
+[2025-05-01T12:23:52.459+0000] {processor.py:186} INFO - Started process (PID=127) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:23:52.463+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:23:52.472+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:23:52.471+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:23:52.521+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:23:52.563+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.122 seconds
+[2025-05-01T12:24:23.133+0000] {processor.py:186} INFO - Started process (PID=134) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:24:23.136+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:24:23.147+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:24:23.146+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:24:23.172+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:24:23.197+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.072 seconds
+[2025-05-01T12:24:54.515+0000] {processor.py:186} INFO - Started process (PID=142) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:24:54.518+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:24:54.523+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:24:54.522+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:24:54.553+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:24:54.591+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.086 seconds
+[2025-05-01T12:25:25.141+0000] {processor.py:186} INFO - Started process (PID=157) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:25:25.145+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:25:25.154+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:25:25.153+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:25:25.183+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:25:25.217+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.085 seconds
+[2025-05-01T12:25:55.608+0000] {processor.py:186} INFO - Started process (PID=164) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:25:55.611+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:25:55.620+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:25:55.619+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:25:55.650+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:25:55.672+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.077 seconds
+[2025-05-01T12:26:25.796+0000] {processor.py:186} INFO - Started process (PID=171) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:26:25.799+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:26:25.803+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:26:25.802+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:26:25.824+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:26:25.842+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.053 seconds
+[2025-05-01T12:26:55.958+0000] {processor.py:186} INFO - Started process (PID=178) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:26:55.960+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:26:55.964+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:26:55.964+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:26:55.988+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:26:56.011+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.062 seconds
+[2025-05-01T12:27:26.771+0000] {processor.py:186} INFO - Started process (PID=185) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:27:26.773+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:27:26.779+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:27:26.779+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:27:26.802+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:27:26.823+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.061 seconds
+[2025-05-01T12:27:57.622+0000] {processor.py:186} INFO - Started process (PID=192) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:27:57.625+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:27:57.630+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:27:57.629+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:27:57.652+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:27:57.683+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.079 seconds
+[2025-05-01T12:28:28.531+0000] {processor.py:186} INFO - Started process (PID=199) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:28:28.534+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:28:28.541+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:28:28.540+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:28:28.560+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:28:28.585+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.068 seconds
+[2025-05-01T12:28:59.049+0000] {processor.py:186} INFO - Started process (PID=206) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:28:59.051+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:28:59.056+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:28:59.055+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:28:59.072+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:28:59.096+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.054 seconds
+[2025-05-01T12:29:29.729+0000] {processor.py:186} INFO - Started process (PID=213) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:29:29.731+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:29:29.738+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:29:29.738+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:29:29.768+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:29:29.800+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.097 seconds
+[2025-05-01T12:30:00.546+0000] {processor.py:186} INFO - Started process (PID=220) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:30:00.547+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:30:00.554+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:30:00.553+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:30:00.579+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:30:00.606+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.072 seconds
+[2025-05-01T12:30:31.399+0000] {processor.py:186} INFO - Started process (PID=227) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:30:31.402+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:30:31.409+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:30:31.408+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:30:31.431+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:30:31.464+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.082 seconds
+[2025-05-01T12:31:01.928+0000] {processor.py:186} INFO - Started process (PID=234) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:31:01.929+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:31:01.933+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:31:01.932+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:31:01.949+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:31:01.970+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.050 seconds
+[2025-05-01T12:31:32.721+0000] {processor.py:186} INFO - Started process (PID=241) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:31:32.723+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:31:32.730+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:31:32.729+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:31:32.772+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:31:32.808+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.107 seconds
+[2025-05-01T12:32:03.812+0000] {processor.py:186} INFO - Started process (PID=248) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:32:03.814+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:32:03.821+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:32:03.820+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:32:03.846+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:32:03.873+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.074 seconds
+[2025-05-01T12:32:34.338+0000] {processor.py:186} INFO - Started process (PID=255) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:32:34.341+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:32:34.348+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:32:34.347+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:32:34.369+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:32:34.390+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.064 seconds
+[2025-05-01T12:33:04.990+0000] {processor.py:186} INFO - Started process (PID=262) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:33:04.992+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:33:04.996+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:33:04.995+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:33:05.015+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:33:05.039+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.061 seconds
+[2025-05-01T12:33:35.566+0000] {processor.py:186} INFO - Started process (PID=269) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:33:35.568+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:33:35.571+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:33:35.571+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:33:35.593+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:33:35.613+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.057 seconds
+[2025-05-01T12:34:06.285+0000] {processor.py:186} INFO - Started process (PID=276) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:34:06.287+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:34:06.293+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:34:06.292+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:34:06.318+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:34:06.353+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.083 seconds
+[2025-05-01T12:34:37.198+0000] {processor.py:186} INFO - Started process (PID=283) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:34:37.201+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:34:37.206+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:34:37.205+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:34:37.240+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:34:37.273+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.090 seconds
+[2025-05-01T12:35:08.064+0000] {processor.py:186} INFO - Started process (PID=290) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:35:08.066+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:35:08.072+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:35:08.071+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:35:08.098+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:35:08.121+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.068 seconds
+[2025-05-01T12:35:38.830+0000] {processor.py:186} INFO - Started process (PID=297) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:35:38.834+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:35:38.842+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:35:38.841+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:35:38.877+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:35:38.915+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.103 seconds
+[2025-05-01T12:36:09.672+0000] {processor.py:186} INFO - Started process (PID=304) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:36:09.674+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:36:09.679+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:36:09.678+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:36:09.707+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:36:09.740+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.082 seconds
+[2025-05-01T12:36:40.153+0000] {processor.py:186} INFO - Started process (PID=311) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:36:40.157+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:36:40.162+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:36:40.161+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:36:40.181+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:36:40.206+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.064 seconds
+[2025-05-01T12:37:11.073+0000] {processor.py:186} INFO - Started process (PID=318) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:37:11.075+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:37:11.079+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:37:11.078+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:37:11.092+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:37:11.113+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.048 seconds
+[2025-05-01T12:37:42.025+0000] {processor.py:186} INFO - Started process (PID=325) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:37:42.030+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:37:42.039+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:37:42.038+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:37:42.066+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:37:42.086+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.079 seconds
+[2025-05-01T12:38:13.184+0000] {processor.py:186} INFO - Started process (PID=332) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:38:13.186+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:38:13.193+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:38:13.190+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:38:13.223+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:38:13.250+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.082 seconds
+[2025-05-01T12:38:44.287+0000] {processor.py:186} INFO - Started process (PID=339) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:38:44.290+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:38:44.299+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:38:44.299+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:38:44.330+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:38:44.360+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.091 seconds
+[2025-05-01T12:39:14.655+0000] {processor.py:186} INFO - Started process (PID=346) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:39:14.658+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:39:14.668+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:39:14.666+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:39:14.693+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:39:14.730+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.089 seconds
+[2025-05-01T12:39:45.556+0000] {processor.py:186} INFO - Started process (PID=353) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:39:45.558+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:39:45.561+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:39:45.561+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:39:45.579+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:39:45.602+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.055 seconds
+[2025-05-01T12:40:15.952+0000] {processor.py:186} INFO - Started process (PID=360) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:40:15.954+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:40:15.958+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:40:15.958+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:40:15.979+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:40:15.996+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.054 seconds
+[2025-05-01T12:40:46.669+0000] {processor.py:186} INFO - Started process (PID=367) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:40:46.671+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:40:46.677+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:40:46.676+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:40:46.696+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:40:46.714+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.054 seconds
+[2025-05-01T12:41:17.450+0000] {processor.py:186} INFO - Started process (PID=374) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:41:17.454+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:41:17.462+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:41:17.461+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:41:17.507+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:41:17.544+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.113 seconds
+[2025-05-01T12:41:47.695+0000] {processor.py:186} INFO - Started process (PID=381) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:41:47.696+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:41:47.700+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:41:47.700+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:41:47.724+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:41:47.759+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.074 seconds
+[2025-05-01T12:42:18.546+0000] {processor.py:186} INFO - Started process (PID=388) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:42:18.548+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:42:18.553+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:42:18.552+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:42:18.578+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:42:18.601+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.066 seconds
+[2025-05-01T12:42:49.542+0000] {processor.py:186} INFO - Started process (PID=395) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:42:49.544+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:42:49.552+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:42:49.551+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:42:49.574+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:42:49.597+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.073 seconds
+[2025-05-01T12:43:20.121+0000] {processor.py:186} INFO - Started process (PID=402) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:43:20.123+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:43:20.127+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:43:20.127+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:43:20.152+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:43:20.186+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.073 seconds
+[2025-05-01T12:43:50.986+0000] {processor.py:186} INFO - Started process (PID=409) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:43:50.987+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:43:50.994+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:43:50.993+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:43:51.030+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:43:51.068+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.096 seconds
+[2025-05-01T12:44:21.585+0000] {processor.py:186} INFO - Started process (PID=416) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:44:21.587+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:44:21.598+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:44:21.597+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:44:21.633+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:44:21.670+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.105 seconds
+[2025-05-01T12:44:52.517+0000] {processor.py:186} INFO - Started process (PID=423) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:44:52.522+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:44:52.532+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:44:52.531+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:44:52.568+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:44:52.602+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.102 seconds
+[2025-05-01T12:45:23.266+0000] {processor.py:186} INFO - Started process (PID=430) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:45:23.268+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:45:23.272+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:45:23.271+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:45:23.293+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:45:23.311+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.051 seconds
+[2025-05-01T12:45:54.045+0000] {processor.py:186} INFO - Started process (PID=437) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:45:54.047+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:45:54.053+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:45:54.052+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:45:54.080+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:45:54.115+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.080 seconds
+[2025-05-01T12:46:24.700+0000] {processor.py:186} INFO - Started process (PID=444) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:46:24.702+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:46:24.708+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:46:24.707+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:46:24.731+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:46:24.758+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.074 seconds
+[2025-05-01T12:46:55.517+0000] {processor.py:186} INFO - Started process (PID=451) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:46:55.520+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:46:55.527+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:46:55.525+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:46:55.555+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:46:55.583+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.080 seconds
+[2025-05-01T12:47:26.883+0000] {processor.py:186} INFO - Started process (PID=458) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:47:26.885+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:47:26.889+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:47:26.889+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:47:26.919+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:47:26.967+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.099 seconds
+[2025-05-01T12:47:57.703+0000] {processor.py:186} INFO - Started process (PID=465) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:47:57.704+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:47:57.708+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:47:57.707+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:47:57.723+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:47:57.752+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.057 seconds
+[2025-05-01T12:48:27.994+0000] {processor.py:186} INFO - Started process (PID=472) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:48:27.996+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:48:28.000+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:48:27.999+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:48:28.010+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:48:28.026+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.038 seconds
+[2025-05-01T12:48:58.335+0000] {processor.py:186} INFO - Started process (PID=479) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:48:58.337+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:48:58.341+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:48:58.341+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:48:58.355+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:48:58.369+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.043 seconds
+[2025-05-01T12:49:29.336+0000] {processor.py:186} INFO - Started process (PID=486) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:49:29.341+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:49:29.351+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:49:29.348+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:49:29.378+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:49:29.405+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.080 seconds
+[2025-05-01T12:50:00.246+0000] {processor.py:186} INFO - Started process (PID=493) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:50:00.248+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:50:00.252+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:50:00.251+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:50:00.267+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:50:00.288+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.051 seconds
+[2025-05-01T12:50:30.639+0000] {processor.py:186} INFO - Started process (PID=500) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:50:30.641+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:50:30.644+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:50:30.644+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:50:30.656+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:50:30.674+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.041 seconds
+[2025-05-01T12:51:00.986+0000] {processor.py:186} INFO - Started process (PID=507) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:51:00.987+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:51:00.989+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:51:00.989+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:51:01.000+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:51:01.018+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.039 seconds
+[2025-05-01T12:51:31.338+0000] {processor.py:186} INFO - Started process (PID=514) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:51:31.339+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:51:31.343+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:51:31.342+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:51:31.357+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:51:31.377+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.046 seconds
+[2025-05-01T12:52:01.827+0000] {processor.py:186} INFO - Started process (PID=521) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:52:01.828+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:52:01.833+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:52:01.833+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:52:01.844+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:52:01.861+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.042 seconds
+[2025-05-01T12:52:32.212+0000] {processor.py:186} INFO - Started process (PID=528) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:52:32.213+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:52:32.216+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:52:32.215+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:52:32.228+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:52:32.251+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.046 seconds
+[2025-05-01T12:53:02.713+0000] {processor.py:186} INFO - Started process (PID=535) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:53:02.716+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:53:02.719+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:53:02.719+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:53:02.735+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:53:02.754+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.050 seconds
+[2025-05-01T12:53:33.103+0000] {processor.py:186} INFO - Started process (PID=542) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:53:33.104+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:53:33.107+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:53:33.107+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:53:33.118+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:53:33.135+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.040 seconds
+[2025-05-01T12:54:03.235+0000] {processor.py:186} INFO - Started process (PID=548) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:54:03.237+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:54:03.238+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:54:03.238+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:54:03.252+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:54:03.276+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.053 seconds
+[2025-05-01T12:54:33.350+0000] {processor.py:186} INFO - Started process (PID=554) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:54:33.352+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:54:33.354+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:54:33.354+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:54:33.383+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:54:33.401+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.056 seconds
+[2025-05-01T12:55:03.599+0000] {processor.py:186} INFO - Started process (PID=560) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:55:03.601+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:55:03.602+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:55:03.602+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:55:03.614+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:55:03.629+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.037 seconds
+[2025-05-01T12:55:33.764+0000] {processor.py:186} INFO - Started process (PID=566) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:55:33.766+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:55:33.768+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:55:33.767+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:55:33.793+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:55:33.812+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.055 seconds
+[2025-05-01T12:56:04.007+0000] {processor.py:186} INFO - Started process (PID=572) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:56:04.008+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:56:04.011+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:56:04.010+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:56:04.020+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:56:04.036+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.036 seconds
+[2025-05-01T12:56:34.108+0000] {processor.py:186} INFO - Started process (PID=578) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:56:34.109+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:56:34.111+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:56:34.111+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:56:34.122+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:56:34.138+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.039 seconds
+[2025-05-01T12:57:04.351+0000] {processor.py:186} INFO - Started process (PID=584) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:57:04.354+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:57:04.357+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:57:04.357+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:57:04.381+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:57:04.417+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.098 seconds
+[2025-05-01T12:57:34.746+0000] {processor.py:186} INFO - Started process (PID=591) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:57:34.747+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:57:34.750+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:57:34.749+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:57:34.772+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:57:34.795+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.060 seconds
+[2025-05-01T12:58:50.278+0000] {processor.py:186} INFO - Started process (PID=28) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:58:50.281+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:58:50.290+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:58:50.289+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:58:50.310+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:58:50.346+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.082 seconds
+[2025-05-01T12:59:21.815+0000] {processor.py:186} INFO - Started process (PID=33) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:59:21.818+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:59:21.834+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:59:21.833+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:59:21.868+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:59:21.928+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.149 seconds
+[2025-05-01T12:59:52.239+0000] {processor.py:186} INFO - Started process (PID=39) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:59:52.240+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T12:59:52.243+0000] {logging_mixin.py:190} INFO - [2025-05-01T12:59:52.242+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:59:52.256+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T12:59:52.277+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.047 seconds
+[2025-05-01T13:00:22.464+0000] {processor.py:186} INFO - Started process (PID=45) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:00:22.465+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:00:22.479+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:00:22.475+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:00:22.504+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:00:22.535+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.099 seconds
+[2025-05-01T13:00:52.711+0000] {processor.py:186} INFO - Started process (PID=51) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:00:52.712+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:00:52.719+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:00:52.718+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:00:52.733+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:00:52.783+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.081 seconds
+[2025-05-01T13:01:23.032+0000] {processor.py:186} INFO - Started process (PID=57) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:01:23.034+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:01:23.071+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:01:23.070+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:01:23.116+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:01:23.160+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.154 seconds
+[2025-05-01T13:01:53.475+0000] {processor.py:186} INFO - Started process (PID=70) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:01:53.488+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:01:53.500+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:01:53.499+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:01:53.523+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:01:53.558+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.097 seconds
+[2025-05-01T13:02:24.290+0000] {processor.py:186} INFO - Started process (PID=79) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:02:24.291+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:02:24.299+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:02:24.299+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:02:24.321+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:02:24.354+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.075 seconds
+[2025-05-01T13:02:55.327+0000] {processor.py:186} INFO - Started process (PID=85) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:02:55.337+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:02:55.344+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:02:55.344+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:02:55.390+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:02:55.461+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.155 seconds
+[2025-05-01T13:03:25.785+0000] {processor.py:186} INFO - Started process (PID=91) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:03:25.789+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:03:25.805+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:03:25.804+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:03:25.847+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:03:25.897+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.138 seconds
+[2025-05-01T13:03:56.355+0000] {processor.py:186} INFO - Started process (PID=97) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:03:56.358+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:03:56.362+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:03:56.361+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:03:56.383+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:03:56.402+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.054 seconds
+[2025-05-01T13:04:27.597+0000] {processor.py:186} INFO - Started process (PID=103) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:04:27.601+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:04:27.610+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:04:27.609+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:04:27.632+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:04:27.678+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.104 seconds
+[2025-05-01T13:04:57.869+0000] {processor.py:186} INFO - Started process (PID=109) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:04:57.873+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:04:57.882+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:04:57.881+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:04:57.902+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:04:57.922+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.104 seconds
+[2025-05-01T13:05:30.387+0000] {processor.py:186} INFO - Started process (PID=115) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:05:30.390+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:05:30.399+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:05:30.398+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:05:30.456+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:05:30.558+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.209 seconds
+[2025-05-01T13:06:01.590+0000] {processor.py:186} INFO - Started process (PID=121) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:06:01.592+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:06:01.605+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:06:01.604+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:06:01.713+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:06:01.777+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.199 seconds
+[2025-05-01T13:06:32.223+0000] {processor.py:186} INFO - Started process (PID=127) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:06:32.224+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:06:32.227+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:06:32.227+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:06:32.246+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:06:32.263+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.049 seconds
+[2025-05-01T13:07:03.013+0000] {processor.py:186} INFO - Started process (PID=134) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:07:03.016+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:07:03.022+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:07:03.021+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:07:03.046+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:07:03.080+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.076 seconds
+[2025-05-01T13:07:33.195+0000] {processor.py:186} INFO - Started process (PID=147) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:07:33.197+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:07:33.201+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:07:33.200+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:07:33.214+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:07:33.229+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.042 seconds
+[2025-05-01T13:08:03.398+0000] {processor.py:186} INFO - Started process (PID=153) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:08:03.400+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:08:03.403+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:08:03.402+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:08:03.418+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:08:03.435+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.044 seconds
+[2025-05-01T13:08:33.649+0000] {processor.py:186} INFO - Started process (PID=159) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:08:33.650+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:08:33.654+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:08:33.653+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:08:33.676+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:08:33.716+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.081 seconds
+[2025-05-01T13:09:04.180+0000] {processor.py:186} INFO - Started process (PID=166) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:09:04.182+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:09:04.186+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:09:04.186+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:09:04.202+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:09:04.221+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.050 seconds
+[2025-05-01T13:09:34.347+0000] {processor.py:186} INFO - Started process (PID=171) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:09:34.349+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:09:34.354+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:09:34.352+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:09:34.380+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:09:34.399+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.060 seconds
+[2025-05-01T13:10:05.446+0000] {processor.py:186} INFO - Started process (PID=178) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:10:05.459+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:10:05.467+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:10:05.466+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:10:05.527+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:10:05.659+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.236 seconds
+[2025-05-01T13:10:35.779+0000] {processor.py:186} INFO - Started process (PID=183) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:10:35.786+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:10:35.793+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:10:35.792+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:10:35.814+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:10:35.875+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.110 seconds
+[2025-05-01T13:11:06.155+0000] {processor.py:186} INFO - Started process (PID=189) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:11:06.157+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:11:06.162+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:11:06.162+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:11:06.179+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:11:06.203+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.056 seconds
+[2025-05-01T13:11:37.019+0000] {processor.py:186} INFO - Started process (PID=195) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:11:37.022+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:11:37.026+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:11:37.025+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:11:37.044+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:11:37.068+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.056 seconds
+[2025-05-01T13:12:08.161+0000] {processor.py:186} INFO - Started process (PID=201) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:12:08.165+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:12:08.182+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:12:08.181+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:12:08.198+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:12:08.227+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.080 seconds
+[2025-05-01T13:12:39.060+0000] {processor.py:186} INFO - Started process (PID=207) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:12:39.063+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:12:39.074+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:12:39.072+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:12:39.102+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:12:39.133+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.084 seconds
+[2025-05-01T13:13:10.074+0000] {processor.py:186} INFO - Started process (PID=213) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:13:10.076+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:13:10.080+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:13:10.079+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:13:10.093+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:13:10.112+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.050 seconds
+[2025-05-01T13:13:40.930+0000] {processor.py:186} INFO - Started process (PID=219) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:13:40.931+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:13:40.934+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:13:40.934+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:13:40.948+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:13:40.965+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.042 seconds
+[2025-05-01T13:14:11.359+0000] {processor.py:186} INFO - Started process (PID=225) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:14:11.361+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:14:11.367+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:14:11.365+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:14:11.392+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:14:11.425+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.077 seconds
+[2025-05-01T13:14:41.658+0000] {processor.py:186} INFO - Started process (PID=231) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:14:41.659+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:14:41.662+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:14:41.662+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:14:41.677+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:14:41.698+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.059 seconds
+[2025-05-01T13:15:11.898+0000] {processor.py:186} INFO - Started process (PID=237) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:15:11.901+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:15:11.906+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:15:11.904+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:15:11.940+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:15:11.975+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.095 seconds
+[2025-05-01T13:15:42.899+0000] {processor.py:186} INFO - Started process (PID=242) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:15:42.900+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:15:42.901+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:15:42.901+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:15:42.909+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:15:42.925+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.033 seconds
+[2025-05-01T13:16:13.878+0000] {processor.py:186} INFO - Started process (PID=247) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:16:13.880+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:16:13.882+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:16:13.882+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:16:13.900+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:16:13.920+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.050 seconds
+[2025-05-01T13:16:44.817+0000] {processor.py:186} INFO - Started process (PID=252) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:16:44.818+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:16:44.822+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:16:44.821+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:16:44.835+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:16:44.859+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.052 seconds
+[2025-05-01T13:17:14.962+0000] {processor.py:186} INFO - Started process (PID=257) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:17:14.964+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:17:14.969+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:17:14.968+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:17:14.992+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:17:15.027+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.078 seconds
+[2025-05-01T13:17:45.296+0000] {processor.py:186} INFO - Started process (PID=262) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:17:45.298+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:17:45.301+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:17:45.300+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:17:45.327+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:17:45.358+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.078 seconds
+[2025-05-01T13:18:16.324+0000] {processor.py:186} INFO - Started process (PID=267) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:18:16.326+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:18:16.327+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:18:16.327+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:18:16.341+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:18:16.359+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.041 seconds
+[2025-05-01T13:18:46.514+0000] {processor.py:186} INFO - Started process (PID=272) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:18:46.516+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:18:46.517+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:18:46.517+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:18:46.528+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:18:46.542+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.033 seconds
+[2025-05-01T13:19:17.251+0000] {processor.py:186} INFO - Started process (PID=278) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:19:17.254+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:19:17.258+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:19:17.257+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:19:17.275+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:19:17.297+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.069 seconds
+[2025-05-01T13:19:47.500+0000] {processor.py:186} INFO - Started process (PID=284) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:19:47.502+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:19:47.506+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:19:47.505+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:19:47.522+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:19:47.542+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.050 seconds
+[2025-05-01T13:20:18.590+0000] {processor.py:186} INFO - Started process (PID=290) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:20:18.591+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:20:18.593+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:20:18.593+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:20:18.612+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:20:18.627+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.047 seconds
+[2025-05-01T13:20:48.824+0000] {processor.py:186} INFO - Started process (PID=296) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:20:48.825+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:20:48.828+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:20:48.827+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:20:48.841+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:20:48.857+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.040 seconds
+[2025-05-01T13:21:19.102+0000] {processor.py:186} INFO - Started process (PID=302) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:21:19.104+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:21:19.108+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:21:19.107+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:21:19.127+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:21:19.147+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.058 seconds
+[2025-05-01T13:21:49.475+0000] {processor.py:186} INFO - Started process (PID=308) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:21:49.476+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:21:49.477+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:21:49.477+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:21:49.489+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:21:49.506+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.041 seconds
+[2025-05-01T13:22:19.623+0000] {processor.py:186} INFO - Started process (PID=314) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:22:19.627+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:22:19.631+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:22:19.630+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:22:19.661+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:22:19.680+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.077 seconds
+[2025-05-01T13:22:49.772+0000] {processor.py:186} INFO - Started process (PID=320) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:22:49.773+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:22:49.775+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:22:49.774+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:22:49.789+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:22:49.807+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.042 seconds
+[2025-05-01T13:23:20.009+0000] {processor.py:186} INFO - Started process (PID=326) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:23:20.011+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:23:20.014+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:23:20.012+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:23:20.024+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:23:20.041+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.039 seconds
+[2025-05-01T13:23:50.330+0000] {processor.py:186} INFO - Started process (PID=332) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:23:50.332+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:23:50.335+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:23:50.334+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:23:50.350+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:23:50.373+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.055 seconds
+[2025-05-01T13:24:20.649+0000] {processor.py:186} INFO - Started process (PID=338) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:24:20.653+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:24:20.657+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:24:20.657+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:24:20.681+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:24:20.723+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.086 seconds
+[2025-05-01T13:24:51.728+0000] {processor.py:186} INFO - Started process (PID=344) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:24:51.729+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:24:51.731+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:24:51.731+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:24:51.742+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:24:51.761+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.041 seconds
+[2025-05-01T13:25:21.889+0000] {processor.py:186} INFO - Started process (PID=350) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:25:21.890+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:25:21.893+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:25:21.893+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:25:21.905+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:25:21.923+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.041 seconds
+[2025-05-01T13:25:52.170+0000] {processor.py:186} INFO - Started process (PID=356) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:25:52.173+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:25:52.177+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:25:52.176+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:25:52.206+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:25:52.240+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.080 seconds
+[2025-05-01T13:26:22.549+0000] {processor.py:186} INFO - Started process (PID=362) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:26:22.552+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:26:22.556+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:26:22.555+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:26:22.580+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:26:22.608+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.084 seconds
+[2025-05-01T13:26:52.927+0000] {processor.py:186} INFO - Started process (PID=368) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:26:52.929+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:26:52.932+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:26:52.931+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:26:52.950+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:26:52.970+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.055 seconds
+[2025-05-01T13:28:18.488+0000] {processor.py:186} INFO - Started process (PID=28) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:28:18.498+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:28:18.509+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:28:18.508+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:28:18.531+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:28:18.574+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.163 seconds
+[2025-05-01T13:28:48.784+0000] {processor.py:186} INFO - Started process (PID=34) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:28:48.787+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:28:48.799+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:28:48.796+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:28:48.819+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:28:48.847+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.086 seconds
+[2025-05-01T13:29:20.834+0000] {processor.py:186} INFO - Started process (PID=40) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:29:21.129+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:29:21.541+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:29:21.540+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:29:21.875+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:29:22.054+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 1.232 seconds
+[2025-05-01T13:29:55.205+0000] {processor.py:186} INFO - Started process (PID=55) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:29:55.210+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:29:55.218+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:29:55.217+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:29:55.254+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:29:55.314+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.131 seconds
+[2025-05-01T13:30:25.653+0000] {processor.py:186} INFO - Started process (PID=65) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:30:25.655+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:30:25.661+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:30:25.660+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:30:25.697+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:30:25.719+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.074 seconds
+[2025-05-01T13:30:55.960+0000] {processor.py:186} INFO - Started process (PID=71) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:30:55.961+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:30:55.967+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:30:55.966+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:30:55.990+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:30:56.051+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.110 seconds
+[2025-05-01T13:31:26.312+0000] {processor.py:186} INFO - Started process (PID=77) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:31:26.313+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:31:26.317+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:31:26.316+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:31:26.331+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:31:26.355+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.051 seconds
+[2025-05-01T13:31:56.681+0000] {processor.py:186} INFO - Started process (PID=83) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:31:56.683+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:31:56.687+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:31:56.686+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:31:56.703+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:31:56.735+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.067 seconds
+[2025-05-01T13:32:26.969+0000] {processor.py:186} INFO - Started process (PID=89) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:32:26.971+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:32:26.980+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:32:26.979+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:32:27.000+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:32:27.044+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.091 seconds
+[2025-05-01T13:32:57.341+0000] {processor.py:186} INFO - Started process (PID=95) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:32:57.343+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:32:57.348+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:32:57.348+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:32:57.364+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:32:57.398+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.069 seconds
+[2025-05-01T13:33:28.052+0000] {processor.py:186} INFO - Started process (PID=101) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:33:28.053+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:33:28.056+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:33:28.056+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:33:28.067+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:33:28.091+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.047 seconds
+[2025-05-01T13:33:58.279+0000] {processor.py:186} INFO - Started process (PID=107) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:33:58.282+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:33:58.288+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:33:58.287+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:33:58.309+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:33:58.339+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.077 seconds
+[2025-05-01T13:34:28.464+0000] {processor.py:186} INFO - Started process (PID=113) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:34:28.465+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:34:28.469+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:34:28.468+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:34:28.481+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:34:28.500+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.043 seconds
+[2025-05-01T13:34:59.496+0000] {processor.py:186} INFO - Started process (PID=119) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:34:59.497+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:34:59.501+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:34:59.500+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:34:59.517+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:34:59.536+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.053 seconds
+[2025-05-01T13:35:29.756+0000] {processor.py:186} INFO - Started process (PID=138) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:35:29.759+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:35:29.762+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:35:29.762+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:35:29.775+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:35:29.797+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.055 seconds
+[2025-05-01T13:36:00.055+0000] {processor.py:186} INFO - Started process (PID=144) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:36:00.061+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:36:00.073+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:36:00.072+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:36:00.143+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:36:00.211+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.180 seconds
+[2025-05-01T13:36:30.565+0000] {processor.py:186} INFO - Started process (PID=150) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:36:30.566+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:36:30.570+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:36:30.569+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:36:30.583+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:36:30.628+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.070 seconds
+[2025-05-01T13:37:00.827+0000] {processor.py:186} INFO - Started process (PID=156) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:37:00.829+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:37:00.832+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:37:00.832+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:37:00.844+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:37:00.865+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.045 seconds
+[2025-05-01T13:37:31.887+0000] {processor.py:186} INFO - Started process (PID=162) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:37:31.889+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:37:31.894+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:37:31.892+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:37:31.912+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:37:31.933+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.056 seconds
+[2025-05-01T13:38:02.910+0000] {processor.py:186} INFO - Started process (PID=168) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:38:02.912+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:38:02.916+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:38:02.915+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:38:02.933+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:38:02.954+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.055 seconds
+[2025-05-01T13:41:26.362+0000] {processor.py:186} INFO - Started process (PID=28) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:41:26.364+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:41:26.371+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:41:26.371+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:41:26.389+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:41:26.412+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.062 seconds
+[2025-05-01T13:41:56.755+0000] {processor.py:186} INFO - Started process (PID=34) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:41:56.757+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:41:56.761+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:41:56.760+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:41:56.774+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:41:56.790+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.046 seconds
+[2025-05-01T13:42:27.144+0000] {processor.py:186} INFO - Started process (PID=40) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:42:27.146+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:42:27.151+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:42:27.151+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:42:27.167+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:42:27.185+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.051 seconds
+[2025-05-01T13:42:58.254+0000] {processor.py:186} INFO - Started process (PID=46) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:42:58.256+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:42:58.263+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:42:58.263+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:42:58.287+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:42:58.309+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.067 seconds
+[2025-05-01T13:43:28.544+0000] {processor.py:186} INFO - Started process (PID=52) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:43:28.547+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:43:28.552+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:43:28.551+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:43:28.579+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:43:28.610+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.090 seconds
+[2025-05-01T13:43:58.820+0000] {processor.py:186} INFO - Started process (PID=80) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:43:58.823+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:43:58.831+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:43:58.831+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:43:58.855+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:43:58.880+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.074 seconds
+[2025-05-01T13:44:29.173+0000] {processor.py:186} INFO - Started process (PID=86) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:44:29.174+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:44:29.177+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:44:29.176+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:44:29.189+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:44:29.209+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.043 seconds
+[2025-05-01T13:44:59.394+0000] {processor.py:186} INFO - Started process (PID=92) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:44:59.398+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:44:59.408+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:44:59.407+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:44:59.428+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:44:59.454+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.072 seconds
+[2025-05-01T13:45:29.569+0000] {processor.py:186} INFO - Started process (PID=98) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:45:29.571+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:45:29.575+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:45:29.574+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:45:29.589+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:45:29.606+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.046 seconds
+[2025-05-01T13:46:00.046+0000] {processor.py:186} INFO - Started process (PID=105) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:46:00.055+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:46:00.068+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:46:00.068+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:46:00.085+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:46:00.102+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.089 seconds
+[2025-05-01T13:46:30.410+0000] {processor.py:186} INFO - Started process (PID=111) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:46:30.411+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:46:30.415+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:46:30.415+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:46:30.431+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:46:30.449+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.046 seconds
+[2025-05-01T13:47:00.552+0000] {processor.py:186} INFO - Started process (PID=117) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:47:00.554+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:47:00.558+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:47:00.557+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:47:00.569+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:47:00.585+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.040 seconds
+[2025-05-01T13:47:30.918+0000] {processor.py:186} INFO - Started process (PID=123) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:47:30.920+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:47:30.923+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:47:30.923+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:47:30.948+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:47:30.964+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.056 seconds
+[2025-05-01T13:48:01.131+0000] {processor.py:186} INFO - Started process (PID=129) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:48:01.133+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:48:01.138+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:48:01.137+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:48:01.150+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:48:01.180+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.062 seconds
+[2025-05-01T13:48:31.274+0000] {processor.py:186} INFO - Started process (PID=134) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:48:31.275+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:48:31.278+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:48:31.278+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:48:31.289+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:48:31.305+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.039 seconds
+[2025-05-01T13:49:01.443+0000] {processor.py:186} INFO - Started process (PID=140) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:49:01.446+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:49:01.454+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:49:01.453+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:49:01.480+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:49:01.504+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.070 seconds
+[2025-05-01T13:49:31.655+0000] {processor.py:186} INFO - Started process (PID=146) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:49:31.656+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:49:31.660+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:49:31.659+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:49:31.671+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:49:31.689+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.042 seconds
+[2025-05-01T13:50:02.813+0000] {processor.py:186} INFO - Started process (PID=152) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:50:02.815+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:50:02.821+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:50:02.819+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:50:02.840+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:50:02.866+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.067 seconds
+[2025-05-01T13:50:33.183+0000] {processor.py:186} INFO - Started process (PID=158) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:50:33.185+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:50:33.189+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:50:33.189+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:50:33.211+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:50:33.238+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.066 seconds
+[2025-05-01T13:51:03.476+0000] {processor.py:186} INFO - Started process (PID=164) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:51:03.479+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:51:03.482+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:51:03.482+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:51:03.494+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:51:03.519+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.052 seconds
+[2025-05-01T13:51:33.968+0000] {processor.py:186} INFO - Started process (PID=170) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:51:33.970+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:51:33.974+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:51:33.973+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:51:33.989+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:51:34.007+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.047 seconds
+[2025-05-01T13:52:04.202+0000] {processor.py:186} INFO - Started process (PID=176) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:52:04.205+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:52:04.213+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:52:04.213+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:52:04.230+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:52:04.255+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.068 seconds
+[2025-05-01T13:52:34.565+0000] {processor.py:186} INFO - Started process (PID=182) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:52:34.568+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:52:34.574+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:52:34.573+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:52:34.587+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:52:34.607+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.050 seconds
+[2025-05-01T13:53:04.826+0000] {processor.py:186} INFO - Started process (PID=188) to work on /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:53:04.827+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data/electri3.xlsx for tasks to queue
+[2025-05-01T13:53:04.831+0000] {logging_mixin.py:190} INFO - [2025-05-01T13:53:04.830+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:53:04.845+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data/electri3.xlsx
+[2025-05-01T13:53:04.869+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data/electri3.xlsx took 0.053 seconds

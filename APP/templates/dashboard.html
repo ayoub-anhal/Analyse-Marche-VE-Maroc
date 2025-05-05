@@ -1,0 +1,608 @@
+{% extends 'base.html' %}
+
+{% block title %}Tableau de Bord des Véhicules Électriques au Maroc{% endblock %}
+
+{% block content %}
+    <div class="dashboard-header">
+        <h1>Tableau de Bord des Véhicules Électriques au Maroc</h1>
+        <p class="dashboard-description">Analyse complète du marché des véhicules électriques et des tendances énergétiques</p>
+    </div>
+
+    <div class="charts-grid">
+        <!-- Section Prix Carburants -->
+        <div class="chart-container" id="chart-diesel">
+            <div class="chart-header">
+                <h3>Évolution des Prix du Diesel et de l'Essence</h3>
+                <div class="chart-controls">
+                    <label for="yearSelect">Année:</label>
+                    <select id="yearSelect" class="select-styled"></select>
+                </div>
+            </div>
+            <div class="plot-container">
+                <canvas id="myChartDiesel"></canvas>
+            </div>
+        </div>
+
+        <!-- Section Ventes de VE -->
+        <div class="chart-container" id="chart-sales">
+            <div class="chart-header">
+                <h3>Évolution des Ventes de Véhicules Électriques</h3>
+            </div>
+            <div class="plot-container">
+                <canvas id="myChartSales"></canvas>
+            </div>
+        </div>
+
+        <!-- Section Prix vs Autonomie -->
+        <div class="chart-container" id="chart-autonomie">
+            <div class="chart-header">
+                <h3>Rapport Prix/Autonomie des Véhicules Électriques</h3>
+            </div>
+            <div class="plot-container">
+                <canvas id="myChartAutonomie"></canvas>
+            </div>
+        </div>
+
+        <!-- Section Distribution Géographique -->
+        <div class="chart-container" id="chart-geo-dist">
+            <div class="chart-header">
+                <h3>Distribution Géographique des Ventes</h3>
+                <div class="chart-controls">
+                    <label for="geoYearSelect">Année:</label>
+                    <select id="geoYearSelect" class="select-styled">
+                        {% for year in geo_years %}
+                        <option value="{{ year }}">{{ year }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+            <div class="plot-container">
+                <canvas id="geoDistChart"></canvas>
+            </div>
+        </div>
+
+        <!-- Section Émissions CO2 -->
+        <div class="chart-container" id="chart-co2">
+            <div class="chart-header">
+                <h3>Impact Environnemental - Émissions de CO2</h3>
+            </div>
+            <div class="table-container">
+                <table id="co2Table" class="data-table">
+                    <thead id="co2TableHead"></thead>
+                    <tbody id="co2TableBody"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Section Carte des Bornes -->
+        <div class="chart-container" id="chart-map">
+            <div class="chart-header">
+                <h3>Réseau de Bornes de Recharge au Maroc</h3>
+                <div class="chart-controls">
+                    <a href="/carte-bornes" class="map-link" target="_blank">Ouvrir la carte en plein écran</a>
+                </div>
+            </div>
+            <div class="map-container">
+                <iframe src="/carte-bornes" width="100%" height="100%" frameborder="0"></iframe>
+            </div>
+        </div>
+        
+        <!-- Section Visualisation des Marques -->
+        <div class="chart-container" id="chart-cars-vis">
+            <div class="chart-header">
+                <h3>Analyse des Ventes par Marque</h3>
+            </div>
+            <div class="car-vis-container">
+                <section class="filters">
+                    <div class="filter-group">
+                        <label for="year-filter">Année:</label>
+                        <select id="year-filter" class="select-styled">
+                            {% for year in vis_years %}
+                            <option value="{{ year }}">{{ year }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="brand-filter">Marque:</label>
+                        <select id="brand-filter" class="select-styled">
+                            {% for brand in vis_brands %}
+                            <option value="{{ brand }}">{{ brand }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    
+                    <button id="apply-filters" class="btn-primary">Appliquer les filtres</button>
+                </section>
+
+                <div class="dashboard">
+                    <!-- Panel TOP 5 marques -->
+                    <div class="stats-panel">
+                        <div class="stats-details">
+                            <h3>Top 5 des Marques</h3>
+                            <div id="top-brands"></div>
+                        </div>
+                    </div>
+
+                    <!-- Panel détails marque -->
+                    <div class="car-display">
+                        <div class="car-info">
+                            <h2 id="car-title">Sélectionnez une marque et une année</h2>
+                            <div class="sales-info">
+                                <span id="sales-volume">-</span>
+                                <span class="sales-label">ventes</span>
+                            </div>
+                        </div>
+                        <div class="car-viewer">
+                            <div id="car-gif-container">
+                                <img id="car-gif" src="/placeholder.svg" alt="Animation du véhicule" class="car-logo-gif">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="dashboard-footer">
+        <div class="legend">
+            <div class="legend-item">
+                <span class="legend-color diesel"></span>
+                <span class="legend-text">Diesel</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-color essence"></span>
+                <span class="legend-text">Essence</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-color electric"></span>
+                <span class="legend-text">Électrique</span>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    // Variables pour stocker les instances des graphiques
+    let chartInstance = null;
+    let salesChartInstance = null;
+    let autonomieChartInstance = null;
+    let geoDistChartInstance = null;
+
+    // Charger les années disponibles et remplir le sélecteur
+    fetch('/years')
+        .then(response => response.json())
+        .then(data => {
+            const yearSelect = document.getElementById('yearSelect');
+            yearSelect.innerHTML = '<option value="">Toutes les années</option>';
+            data.years.forEach(y => {
+                yearSelect.innerHTML += `<option value="${y}">20${y}</option>`;
+            });
+            loadChart('');
+        });
+
+    // Fonction pour charger les données du graphique diesel/essence
+    function loadChart(selectedYear = '') {
+        fetch('/chart-data' + (selectedYear ? `?year=${selectedYear}` : ''))
+            .then(response => response.json())
+            .then(data => {
+                if (chartInstance) chartInstance.destroy();
+                const ctx = document.getElementById('myChartDiesel').getContext('2d');
+                chartInstance = new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: data.labels,
+                        datasets: [
+                            {
+                                label: 'Prix du Diesel',
+                                data: data.diesel,
+                                borderColor: 'rgba(54, 162, 235, 0.9)',
+                                backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                                fill: true,
+                                tension: 0.1
+                            },
+                            {
+                                label: 'Prix de l\'Essence',
+                                data: data.gasoline,
+                                borderColor: 'rgba(255, 99, 132, 0.9)',
+                                backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                                fill: true,
+                                tension: 0.1
+                            }
+                        ]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: {
+                                position: 'top',
+                                align: 'end'
+                            },
+                            tooltip: {
+                                titleAlign: 'left',
+                                bodyAlign: 'left'
+                            }
+                        },
+                        scales: {
+                            y: {
+                                beginAtZero: false,
+                                title: {
+                                    display: true,
+                                    text: 'Prix (MAD)'
+                                }
+                            },
+                            x: {
+                                title: {
+                                    display: true,
+                                    text: 'Mois'
+                                }
+                            }
+                        }
+                    }
+                });
+            });
+    }
+
+    // Charger les données des ventes
+    fetch('/sales-data')
+        .then(response => response.json())
+        .then(data => {
+            const ctx = document.getElementById('myChartSales').getContext('2d');
+            salesChartInstance = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: data.labels,
+                    datasets: [{
+                        label: 'Ventes',
+                        data: data.values,
+                        borderColor: 'rgba(75, 192, 192, 0.9)',
+                        backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                        fill: true,
+                        tension: 0.1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'top',
+                            align: 'end'
+                        },
+                        tooltip: {
+                            titleAlign: 'left',
+                            bodyAlign: 'left'
+                        }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Nombre de véhicules'
+                            }
+                        },
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'Année'
+                            }
+                        }
+                    }
+                }
+            });
+        });
+
+    // Charger les données d'autonomie
+    fetch('/autonomie-data')
+        .then(response => response.json())
+        .then(data => {
+            const ctx = document.getElementById('myChartAutonomie').getContext('2d');
+            const scatterData = data.labels.map((prix, i) => ({
+                x: prix,
+                y: data.values[i],
+                label: data.hover_labels ? data.hover_labels[i] : ''
+            }));
+
+            autonomieChartInstance = new Chart(ctx, {
+                type: 'scatter',
+                data: {
+                    datasets: [{
+                        label: 'Prix vs Autonomie',
+                        data: scatterData,
+                        backgroundColor: 'rgba(54, 162, 235, 0.6)',
+                        borderColor: 'rgba(54, 162, 235, 1)',
+                        pointRadius: 7,
+                        pointHoverRadius: 10
+                    }]
+                },
+                options: {
+                    plugins: {
+                        tooltip: {
+                            titleAlign: 'left',
+                            bodyAlign: 'left',
+                            callbacks: {
+                                label: function(context) {
+                                    let label = context.raw.label ? context.raw.label + ': ' : '';
+                                    label += `Prix: ${context.raw.x} MAD, Autonomie: ${context.raw.y} km`;
+                                    return label;
+                                }
+                            }
+                        },
+                        legend: {
+                            position: 'top',
+                            align: 'end'
+                        }
+                    },
+                    scales: {
+                        x: {
+                            title: { 
+                                display: true, 
+                                text: 'Prix (MAD)' 
+                            }
+                        },
+                        y: {
+                            title: { 
+                                display: true, 
+                                text: 'Autonomie (km)' 
+                            }
+                        }
+                    },
+                    responsive: true,
+                    maintainAspectRatio: false
+                }
+            });
+    });
+
+    // Fonction pour charger les données de distribution géographique
+    function loadGeoDistribution(selectedYear) {
+        fetch('/geo-distribution-data' + (selectedYear ? `?year=${selectedYear}` : ''))
+            .then(response => response.json())
+            .then(data => {
+                if (geoDistChartInstance) geoDistChartInstance.destroy();
+                
+                const ctx = document.getElementById('geoDistChart').getContext('2d');
+                geoDistChartInstance = new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: data.cities,
+                        datasets: [{
+                            label: `Distribution des ventes ${data.selected_year}`,
+                            data: data.distribution,
+                            backgroundColor: 'rgba(75, 192, 192, 0.7)',
+                            borderColor: 'rgba(75, 192, 192, 1)',
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        indexAxis: 'y',  // Pour un barplot horizontal
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        plugins: {
+                            legend: {
+                                position: 'top',
+                                align: 'end'
+                            },
+                            tooltip: {
+                                titleAlign: 'left',
+                                bodyAlign: 'left',
+                                callbacks: {
+                                    label: function(context) {
+                                        return `${context.raw}%`;
+                                    }
+                                }
+                            }
+                        },
+                        scales: {
+                            x: {
+                                beginAtZero: true,
+                                title: {
+                                    display: true,
+                                    text: 'Distribution des ventes (%)'
+                                }
+                            },
+                            y: {
+                                title: {
+                                    display: true,
+                                    text: 'Villes'
+                                }
+                            }
+                        }
+                    }
+                });
+            });
+    }
+
+    // Initialiser le graphique de distribution géographique
+    document.addEventListener('DOMContentLoaded', function() {
+        const geoYearSelect = document.getElementById('geoYearSelect');
+        if (geoYearSelect && geoYearSelect.options.length > 0) {
+            const defaultYear = geoYearSelect.options[0].value;
+            loadGeoDistribution(defaultYear);
+            
+            // Ajouter l'écouteur d'événement pour le changement d'année
+            geoYearSelect.addEventListener('change', function() {
+                loadGeoDistribution(this.value);
+            });
+        }
+    });
+
+    // Gérer le changement d'année pour le graphique diesel/essence
+    document.getElementById('yearSelect').addEventListener('change', function() {
+        loadChart(this.value);
+    });
+
+    // Charger les données CO2 et créer le tableau
+    function loadCO2Table() {
+        fetch('/co2-data')
+            .then(response => response.json())
+            .then(data => {
+                const tableHead = document.getElementById('co2TableHead');
+                const tableBody = document.getElementById('co2TableBody');
+                
+                // Créer l'en-tête du tableau
+                let headerRow = document.createElement('tr');
+                data.columns.forEach(column => {
+                    let th = document.createElement('th');
+                    th.textContent = column;
+                    th.addEventListener('click', () => sortTable(column));
+                    headerRow.appendChild(th);
+                });
+                tableHead.innerHTML = '';
+                tableHead.appendChild(headerRow);
+                
+                // Variables pour la pagination
+                const rowsPerPage = 10;
+                const totalPages = Math.ceil(data.data.length / rowsPerPage);
+                let currentPage = 1;
+                
+                // Fonction pour afficher les données selon la page actuelle
+                function displayTableData(page) {
+                    const start = (page - 1) * rowsPerPage;
+                    const end = start + rowsPerPage;
+                    const paginatedData = data.data.slice(start, end);
+                    
+                    tableBody.innerHTML = '';
+                    
+                    paginatedData.forEach(row => {
+                        let tr = document.createElement('tr');
+                        data.columns.forEach(column => {
+                            let td = document.createElement('td');
+                            td.textContent = row[column];
+                            tr.appendChild(td);
+                        });
+                        tableBody.appendChild(tr);
+                    });
+                }
+                
+                // Créer les contrôles de pagination
+                function createPagination() {
+                    const container = document.createElement('div');
+                    container.className = 'table-pagination';
+                    
+                    // Bouton précédent
+                    const prevBtn = document.createElement('button');
+                    prevBtn.className = 'pagination-btn';
+                    prevBtn.textContent = 'Précédent';
+                    prevBtn.addEventListener('click', () => {
+                        if (currentPage > 1) {
+                            currentPage--;
+                            updatePagination();
+                            displayTableData(currentPage);
+                        }
+                    });
+                    container.appendChild(prevBtn);
+                    
+                    // Numéros de pages
+                    for (let i = 1; i <= Math.min(5, totalPages); i++) {
+                        const pageBtn = document.createElement('button');
+                        pageBtn.className = 'pagination-btn';
+                        pageBtn.textContent = i;
+                        pageBtn.addEventListener('click', () => {
+                            currentPage = i;
+                            updatePagination();
+                            displayTableData(currentPage);
+                        });
+                        container.appendChild(pageBtn);
+                    }
+                    
+                    // Bouton suivant
+                    const nextBtn = document.createElement('button');
+                    nextBtn.className = 'pagination-btn';
+                    nextBtn.textContent = 'Suivant';
+                    nextBtn.addEventListener('click', () => {
+                        if (currentPage < totalPages) {
+                            currentPage++;
+                            updatePagination();
+                            displayTableData(currentPage);
+                        }
+                    });
+                    container.appendChild(nextBtn);
+                    
+                    // Ajouter au DOM
+                    const tableContainer = document.querySelector('.table-container');
+                    tableContainer.appendChild(container);
+                    
+                    // Mettre à jour l'état actif des boutons
+                    function updatePagination() {
+                        const buttons = container.querySelectorAll('.pagination-btn');
+                        buttons.forEach((btn, index) => {
+                            if (index === 0) {
+                                // Bouton précédent
+                                btn.disabled = currentPage === 1;
+                            } else if (index === buttons.length - 1) {
+                                // Bouton suivant
+                                btn.disabled = currentPage === totalPages;
+                            } else {
+                                // Boutons de pages
+                                btn.classList.toggle('active', parseInt(btn.textContent) === currentPage);
+                            }
+                        });
+                    }
+                    
+                    updatePagination();
+                }
+                
+                // Fonction pour trier le tableau
+                let sortColumn = null;
+                let sortDirection = 1; // 1 pour ascendant, -1 pour descendant
+                
+                function sortTable(column) {
+                    // Inverser la direction si on clique sur la même colonne
+                    if (sortColumn === column) {
+                        sortDirection *= -1;
+                    } else {
+                        sortColumn = column;
+                        sortDirection = 1;
+                    }
+                    
+                    // Trier les données
+                    data.data.sort((a, b) => {
+                        const valueA = a[column];
+                        const valueB = b[column];
+                        
+                        // Vérifier si les valeurs sont numériques
+                        if (!isNaN(valueA) && !isNaN(valueB)) {
+                            return (parseFloat(valueA) - parseFloat(valueB)) * sortDirection;
+                        } else {
+                            return String(valueA).localeCompare(String(valueB)) * sortDirection;
+                        }
+                    });
+                    
+                    // Rafraîchir l'affichage
+                    displayTableData(currentPage);
+                }
+                
+                // Initialiser l'affichage
+                displayTableData(currentPage);
+                createPagination();
+            });
+    }
+
+    // Appeler la fonction au chargement de la page
+    document.addEventListener('DOMContentLoaded', function() {
+        loadCO2Table();
+        
+        // Ajouter des classes aux éléments pour animation
+        document.querySelectorAll('.chart-container').forEach((container, index) => {
+            container.style.setProperty('--i', index);
+            setTimeout(() => {
+                container.classList.add('visible');
+            }, index * 150);
+        });
+    });
+</script>
+
+<!-- Stockage des données en JSON pour JavaScript -->
+<script id="car-data" type="application/json">
+    {{ car_data|safe }}
+</script>
+<script id="car-gifs" type="application/json">
+    {{ car_gifs|safe }}
+</script>
+
+<!-- Importer le fichier script.js -->
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+{% endblock %}

@@ -1,0 +1,238 @@
+<style>
+    /* Styles pour la navbar avec angles bien arrondis */
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #3498db; /* Couleur bleue comme dans l'image */
+        border-radius: 30px; /* Angles beaucoup plus arrondis */
+        margin: 5px 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .dark-theme .navbar {
+        background-color: #2980b9; /* Bleu plus foncé pour le thème sombre */
+        color: #f0f0f0;
+    }
+    
+    .navbar-left {
+        display: flex;
+        align-items: center;
+    }
+    
+    .navbar-logo {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+    
+    .navbar-logo img {
+        height: 40px;
+        width: auto;
+    }
+    
+    .navbar-title {
+        flex-grow: 1;
+        text-align: center;
+    }
+    
+    .navbar-title h2 {
+        margin: 0;
+        font-size: 1.5rem;
+        color: white;
+    }
+    
+    .navbar-actions {
+        display: flex;
+        align-items: center;
+    }
+    
+    .navbar-buttons {
+        display: flex;
+    }
+    
+    /* Styles pour les boutons de la navbar */
+    .navbar-btn-link {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .navbar-btn {
+        cursor: pointer;
+        padding: 8px 15px;
+        margin: 0 5px;
+        border: none;
+        border-radius: 20px; /* Angles bien arrondis pour les boutons */
+        background-color: transparent;
+        transition: background-color 0.3s, transform 0.2s;
+        color: white;
+    }
+    
+    /* Style spécifique pour les boutons DASH et NEWS */
+    #dash-button, #news-button {
+        font-weight: 600;
+        padding: 10px 30px; /* Beaucoup plus large */
+        font-size: 1rem;
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 25px; /* Angles très arrondis comme dans l'image */
+        min-width: 120px; /* Largeur minimale fixe */
+        text-align: center;
+        letter-spacing: 1px;
+    }
+    
+    .dark-theme #dash-button, .dark-theme #news-button {
+        background-color: rgba(255, 255, 255, 0.15);
+    }
+    
+    #dash-button:hover, #news-button:hover {
+        background-color: rgba(255, 255, 255, 0.3);
+        transform: translateY(-2px);
+    }
+    
+    .navbar-btn.active {
+        background-color: rgba(255, 255, 255, 0.4) !important;
+        font-weight: bold;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .dark-theme .navbar-btn.active {
+        background-color: rgba(255, 255, 255, 0.3) !important;
+    }
+    
+    /* Styles pour le bouton de toggle sidebar */
+    .sidebar-toggle-btn {
+        background: none;
+        border: none;
+        font-size: 1.2rem;
+        cursor: pointer;
+        padding: 5px;
+        color: white;
+    }
+    
+    /* Styles pour le bouton de thème */
+    #theme-toggle {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+    
+    #theme-toggle:hover {
+        background-color: rgba(255, 255, 255, 0.3);
+        transform: rotate(15deg);
+    }
+    
+    /* Styles pour le thème sombre */
+    .dark-theme {
+        background-color: #1a1a1a;
+        color: #f0f0f0;
+    }
+    
+    /* Styles pour la sidebar mobile */
+    @media (max-width: 768px) {
+        .navbar {
+            border-radius: 25px; /* Même en version mobile, gardons des angles bien arrondis */
+            padding: 8px 15px;
+        }
+        
+        .sidebar {
+            position: fixed;
+            top: 60px;
+            left: -250px;
+            width: 250px;
+            height: calc(100vh - 60px);
+            background-color: #3498db;
+            transition: left 0.3s ease;
+            z-index: 1000;
+            overflow-y: auto;
+            border-radius: 0 25px 25px 0; /* Angles arrondis aussi pour la sidebar */
+        }
+        
+        .dark-theme .sidebar {
+            background-color: #2980b9;
+        }
+        
+        .sidebar.open {
+            left: 0;
+        }
+        
+        #dash-button, #news-button {
+            padding: 8px 20px;
+            min-width: 100px;
+        }
+    }
+</style>
+
+<div class="navbar">
+    <div class="navbar-left">
+        <button class="sidebar-toggle-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="navbar-logo">
+            <img src="/api/placeholder/40/40" alt="Logo">
+        </div>
+    </div>
+    <div class="navbar-logo">
+        <a href="#" class="navbar-btn-link"><button class="navbar-btn active" id="dash-button">DASH</button></a>
+        <a href="#" class="navbar-btn-link"><button class="navbar-btn" id="news-button">NEWS</button></a>
+    </div>
+    <div class="navbar-actions">
+        <div class="navbar-buttons">
+            <button id="theme-toggle" class="navbar-btn" title="Changer le thème">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Basculer entre les thèmes clair et sombre
+        const themeToggle = document.getElementById('theme-toggle');
+        themeToggle.addEventListener('click', function() {
+            document.body.classList.toggle('dark-theme');
+            const icon = themeToggle.querySelector('i');
+            if (document.body.classList.contains('dark-theme')) {
+                icon.classList.replace('fa-moon', 'fa-sun');
+            } else {
+                icon.classList.replace('fa-sun', 'fa-moon');
+            }
+            localStorage.setItem('theme', document.body.classList.contains('dark-theme') ? 'dark' : 'light');
+        });
+
+        // Appliquer le thème sauvegardé
+        if (localStorage.getItem('theme') === 'dark') {
+            document.body.classList.add('dark-theme');
+            themeToggle.querySelector('i').classList.replace('fa-moon', 'fa-sun');
+        }
+        
+        // Gestion du toggle sidebar pour mobile
+        const sidebarToggleBtn = document.querySelector('.sidebar-toggle-btn');
+        const sidebar = document.querySelector('.sidebar');
+        
+        if (sidebarToggleBtn && sidebar) {
+            sidebarToggleBtn.addEventListener('click', function() {
+                sidebar.classList.toggle('open');
+            });
+        }
+        
+        // Démonstration: Changer l'onglet actif lors du clic
+        const dashButton = document.getElementById('dash-button');
+        const newsButton = document.getElementById('news-button');
+        
+        dashButton.addEventListener('click', function() {
+            dashButton.classList.add('active');
+            newsButton.classList.remove('active');
+        });
+        
+        newsButton.addEventListener('click', function() {
+            newsButton.classList.add('active');
+            dashButton.classList.remove('active');
+        });
+    });
+</script>

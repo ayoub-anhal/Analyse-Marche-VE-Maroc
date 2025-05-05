@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Tableau de Bord des Véhicules Électriques{% endblock %}</title>
+
+    <!-- Polices Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Feuilles de style -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles_vis.css') }}">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <style>
+    /* Styles intégrés pour la navbar */
+    .navbar {
+      background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+      color: var(--white);
+      padding: 10px 15px;
+      height: 60px;
+      display: flex;
+      justify-content: center; /* Centre les éléments horizontalement */
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: var(--shadow);
+    }
+    
+    .navbar-left {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    
+    .navbar-logo {
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+    }
+    
+    .navbar-btn {
+      background: rgba(255, 255, 255, 0.15);
+      border: none;
+      color: var(--white);
+      padding: 10px 25px; /* Augmenté pour des boutons plus grands */
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 1.1rem; /* Augmenté pour du texte plus grand */
+      transition: var(--transition);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      text-decoration: none; /* Pour les liens */
+      display: inline-block; /* Pour les liens */
+    }
+    
+    .navbar-btn:hover {
+      background: rgba(255, 255, 255, 0.25);
+      transform: translateY(-2px);
+    }
+    
+    .navbar-btn.active {
+      background: rgba(255, 255, 255, 0.3);
+      box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.3), 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+    
+    .navbar-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      position: absolute;
+      right: 15px;
+    }
+    
+    .sidebar-toggle-btn {
+      display: none;
+      background: transparent;
+      border: none;
+      color: var(--white);
+      font-size: 1.2rem;
+      cursor: pointer;
+      position: absolute;
+      left: 15px;
+    }
+    
+    @media (max-width: 992px) {
+      .sidebar-toggle-btn {
+        display: block;
+      }
+      
+      .navbar-btn {
+        padding: 8px 20px;
+        font-size: 1rem;
+      }
+    }
+    
+    @media (max-width: 576px) {
+      .navbar-btn {
+        padding: 6px 15px;
+        font-size: 0.9rem;
+      }
+    }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        {% include 'components/sidebar.html' %}
+        <div class="main-content">
+            <div class="navbar">
+                <button class="sidebar-toggle-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="navbar-logo">
+                    <a href="{{ url_for('dashboard') }}" class="navbar-btn {% if request.path == '/' or request.path == '/dashboard' %}active{% endif %}" id="dash-button">DASH</a>
+                    <a href="{{ url_for('news') }}" class="navbar-btn {% if request.path == '/news' %}active{% endif %}" id="news-button">NEWS</a>
+                </div>
+                <div class="navbar-actions">
+                    <button id="theme-toggle" class="navbar-btn" title="Changer le thème">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="content-wrapper">
+                {% block content %}{% endblock %}
+            </div>
+        </div>
+    </div>
+
+    <script>
+    // Fonction de défilement fluide vers un graphique
+    function scrollToChart(chartId) {
+        const element = document.getElementById(chartId);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
+
+    // Définir l'élément actif dans la sidebar selon la section visible
+    function setActiveMenuItem() {
+        const sections = document.querySelectorAll('.chart-container, .map-container');
+        const navItems = document.querySelectorAll('.sidebar-menu a');
+        
+        window.addEventListener('scroll', () => {
+            let current = '';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (window.scrollY >= sectionTop - 200) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            navItems.forEach(item => {
+                item.classList.remove('active');
+                const href = item.getAttribute('href');
+                if (href && href.includes(current)) {
+                    item.classList.add('active');
+                }
+            });
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // Basculer entre les thèmes clair et sombre
+        const themeToggle = document.getElementById('theme-toggle');
+        if (themeToggle) {
+            themeToggle.addEventListener('click', function() {
+                document.body.classList.toggle('dark-theme');
+                const icon = themeToggle.querySelector('i');
+                if (document.body.classList.contains('dark-theme')) {
+                    icon.classList.replace('fa-moon', 'fa-sun');
+                } else {
+                    icon.classList.replace('fa-sun', 'fa-moon');
+                }
+                localStorage.setItem('theme', document.body.classList.contains('dark-theme') ? 'dark' : 'light');
+            });
+        }
+
+        // Appliquer le thème sauvegardé
+        if (localStorage.getItem('theme') === 'dark') {
+            document.body.classList.add('dark-theme');
+            const icon = document.querySelector('#theme-toggle i');
+            if (icon) {
+                icon.classList.replace('fa-moon', 'fa-sun');
+            }
+        }
+        
+        // Gestion du toggle sidebar pour mobile
+        const sidebarToggleBtn = document.querySelector('.sidebar-toggle-btn');
+        const sidebar = document.querySelector('.sidebar');
+        
+        if (sidebarToggleBtn && sidebar) {
+            sidebarToggleBtn.addEventListener('click', function() {
+                sidebar.classList.toggle('open');
+            });
+        }
+        
+        // Initialisation de l'élément actif dans la sidebar
+        setActiveMenuItem();
+    });
+    </script>
+
+    {% block scripts %}{% endblock %}
+</body>
+</html>

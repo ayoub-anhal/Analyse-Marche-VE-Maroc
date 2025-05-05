@@ -1,0 +1,3494 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7fe7cefcf38180bec1baff365fa38146 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7fe7cefcf38180bec1baff365fa38146" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7fe7cefcf38180bec1baff365fa38146 = L.map(
+                "map_7fe7cefcf38180bec1baff365fa38146",
+                {
+                    center: [31.7917, -7.0926],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ebb765c0909e99f6c1fe41bc453e15f1 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ebb765c0909e99f6c1fe41bc453e15f1.addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var marker_6732014980c84e40533765878b29f86a = L.marker(
+                [35.721336, -5.6597686],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_23579997276f07296d8414212e27a8b8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bcc1e570a45073a41b0150c957302022 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_910fe747017c6bb095e3afbf739c8693 = $(`<div id="html_910fe747017c6bb095e3afbf739c8693" style="width: 100.0%; height: 100.0%;"><b>Shell Melloussa</b><br>2 bornes Type 2      22,5kw</div>`)[0];
+                popup_bcc1e570a45073a41b0150c957302022.setContent(html_910fe747017c6bb095e3afbf739c8693);
+            
+        
+
+        marker_6732014980c84e40533765878b29f86a.bindPopup(popup_bcc1e570a45073a41b0150c957302022)
+        ;
+
+        
+    
+    
+            marker_6732014980c84e40533765878b29f86a.bindTooltip(
+                `<div>
+                     Shell Melloussa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6732014980c84e40533765878b29f86a.setIcon(icon_23579997276f07296d8414212e27a8b8);
+            
+    
+            var marker_3e5fd2c4ee62d35d8bf4a62c2e1d0a7b = L.marker(
+                [32.0, -6.0],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_7dafef6a0619d824c07ee6fbfb355ce9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7a014a6367fbbec5141d67d0c757cfcf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b20089057a47ddeb4228fb1533318ae = $(`<div id="html_9b20089057a47ddeb4228fb1533318ae" style="width: 100.0%; height: 100.0%;"><b>TESLA SUPERCHARGE Tanger</b><br>2 bornes Tesla   3,7kw</div>`)[0];
+                popup_7a014a6367fbbec5141d67d0c757cfcf.setContent(html_9b20089057a47ddeb4228fb1533318ae);
+            
+        
+
+        marker_3e5fd2c4ee62d35d8bf4a62c2e1d0a7b.bindPopup(popup_7a014a6367fbbec5141d67d0c757cfcf)
+        ;
+
+        
+    
+    
+            marker_3e5fd2c4ee62d35d8bf4a62c2e1d0a7b.bindTooltip(
+                `<div>
+                     TESLA SUPERCHARGE Tanger
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3e5fd2c4ee62d35d8bf4a62c2e1d0a7b.setIcon(icon_7dafef6a0619d824c07ee6fbfb355ce9);
+            
+    
+            var marker_99dd2b5638aa328ff4e96eb918bfc005 = L.marker(
+                [35.7625681, -5.8295062],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_3ea957ee5be77c5954cc8600d62fecfb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_66760e59e3a75e7bc6e5f4ce71cbbf38 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_978e4c1cab6545e59e6012f613bfad3c = $(`<div id="html_978e4c1cab6545e59e6012f613bfad3c" style="width: 100.0%; height: 100.0%;"><b>Royal Tulip City Center</b><br>1 borne Type 2      3kw</div>`)[0];
+                popup_66760e59e3a75e7bc6e5f4ce71cbbf38.setContent(html_978e4c1cab6545e59e6012f613bfad3c);
+            
+        
+
+        marker_99dd2b5638aa328ff4e96eb918bfc005.bindPopup(popup_66760e59e3a75e7bc6e5f4ce71cbbf38)
+        ;
+
+        
+    
+    
+            marker_99dd2b5638aa328ff4e96eb918bfc005.bindTooltip(
+                `<div>
+                     Royal Tulip City Center
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_99dd2b5638aa328ff4e96eb918bfc005.setIcon(icon_3ea957ee5be77c5954cc8600d62fecfb);
+            
+    
+            var marker_00438ce145fe52c0e8f1d3a55be5752a = L.marker(
+                [35.7625681, -5.8295062],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_30a3a6a87b5d3e368718155e57099796 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_281759acbecc8acad2d3dc1b3b3c9dc3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0b4f9ab6c1eceb9bdcbdbed284a70efe = $(`<div id="html_0b4f9ab6c1eceb9bdcbdbed284a70efe" style="width: 100.0%; height: 100.0%;"><b>Kenzi Solazur Tanger</b><br>3 bornes  Type 2    11kw-22kw</div>`)[0];
+                popup_281759acbecc8acad2d3dc1b3b3c9dc3.setContent(html_0b4f9ab6c1eceb9bdcbdbed284a70efe);
+            
+        
+
+        marker_00438ce145fe52c0e8f1d3a55be5752a.bindPopup(popup_281759acbecc8acad2d3dc1b3b3c9dc3)
+        ;
+
+        
+    
+    
+            marker_00438ce145fe52c0e8f1d3a55be5752a.bindTooltip(
+                `<div>
+                     Kenzi Solazur Tanger
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_00438ce145fe52c0e8f1d3a55be5752a.setIcon(icon_30a3a6a87b5d3e368718155e57099796);
+            
+    
+            var marker_0659a9478423c8e3f4a6d6e243cfe4d7 = L.marker(
+                [35.7625681, -5.8295062],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_f1b99d89abcf8810eb1d74d0dfabf58a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5ebce8b81ca4185579cd81a28ccfcbd9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_df2e0f2361b318a5a3ca2274d9b06d68 = $(`<div id="html_df2e0f2361b318a5a3ca2274d9b06d68" style="width: 100.0%; height: 100.0%;"><b>Villa Josephine</b><br>1 borne Type 2        3kw</div>`)[0];
+                popup_5ebce8b81ca4185579cd81a28ccfcbd9.setContent(html_df2e0f2361b318a5a3ca2274d9b06d68);
+            
+        
+
+        marker_0659a9478423c8e3f4a6d6e243cfe4d7.bindPopup(popup_5ebce8b81ca4185579cd81a28ccfcbd9)
+        ;
+
+        
+    
+    
+            marker_0659a9478423c8e3f4a6d6e243cfe4d7.bindTooltip(
+                `<div>
+                     Villa Josephine
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0659a9478423c8e3f4a6d6e243cfe4d7.setIcon(icon_f1b99d89abcf8810eb1d74d0dfabf58a);
+            
+    
+            var marker_5b7b7329c0a72dc333072fc44e3b8894 = L.marker(
+                [35.7625681, -5.8295062],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_60fc821305ce63da0f8ae6aeb2a6a309 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0431504b2f98957f8348db24b48494d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f3174c1359f75ac7785a6a03f9c28185 = $(`<div id="html_f3174c1359f75ac7785a6a03f9c28185" style="width: 100.0%; height: 100.0%;"><b>Camping Achakar</b><br>3 prises domestiques 3,7kw</div>`)[0];
+                popup_0431504b2f98957f8348db24b48494d7.setContent(html_f3174c1359f75ac7785a6a03f9c28185);
+            
+        
+
+        marker_5b7b7329c0a72dc333072fc44e3b8894.bindPopup(popup_0431504b2f98957f8348db24b48494d7)
+        ;
+
+        
+    
+    
+            marker_5b7b7329c0a72dc333072fc44e3b8894.bindTooltip(
+                `<div>
+                     Camping Achakar
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5b7b7329c0a72dc333072fc44e3b8894.setIcon(icon_60fc821305ce63da0f8ae6aeb2a6a309);
+            
+    
+            var marker_86f8b3052f8dab1cc699cf4c0fe85554 = L.marker(
+                [35.7625681, -5.8295062],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_7307bb13fd0d2f7adf94132bfd2e5346 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8abf67a39f42244157fe48008b717100 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f48af798e5dea4cdbd39000108a5dcce = $(`<div id="html_f48af798e5dea4cdbd39000108a5dcce" style="width: 100.0%; height: 100.0%;"><b>Hilton Tangier Al Houara Resort & Spa</b><br>Super Chargeur Tesla</div>`)[0];
+                popup_8abf67a39f42244157fe48008b717100.setContent(html_f48af798e5dea4cdbd39000108a5dcce);
+            
+        
+
+        marker_86f8b3052f8dab1cc699cf4c0fe85554.bindPopup(popup_8abf67a39f42244157fe48008b717100)
+        ;
+
+        
+    
+    
+            marker_86f8b3052f8dab1cc699cf4c0fe85554.bindTooltip(
+                `<div>
+                     Hilton Tangier Al Houara Resort & Spa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_86f8b3052f8dab1cc699cf4c0fe85554.setIcon(icon_7307bb13fd0d2f7adf94132bfd2e5346);
+            
+    
+            var marker_df635ad90741b40ee3e2aee638699348 = L.marker(
+                [35.461928, -6.036545],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_58c85904532854882d554d18abe8cdd3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_66ba1bc90c6bc786d4b3e5b5ab82c290 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fd565d282823694fbea606b4902a4d9a = $(`<div id="html_fd565d282823694fbea606b4902a4d9a" style="width: 100.0%; height: 100.0%;"><b>Station Afriquia Asilah     A1</b><br>1 borne Type 2      22kw  accéléré</div>`)[0];
+                popup_66ba1bc90c6bc786d4b3e5b5ab82c290.setContent(html_fd565d282823694fbea606b4902a4d9a);
+            
+        
+
+        marker_df635ad90741b40ee3e2aee638699348.bindPopup(popup_66ba1bc90c6bc786d4b3e5b5ab82c290)
+        ;
+
+        
+    
+    
+            marker_df635ad90741b40ee3e2aee638699348.bindTooltip(
+                `<div>
+                     Station Afriquia Asilah     A1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_df635ad90741b40ee3e2aee638699348.setIcon(icon_58c85904532854882d554d18abe8cdd3);
+            
+    
+            var marker_0216c03ab8b61db075c1c1c24f20ccbf = L.marker(
+                [35.1952327, -6.152913],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_0839ed1e8b5e964f73181a2df081e9e7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a52b43c6039771b56544efcca651ebd6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_acd95742c95e12c72aefa89a05dedf5d = $(`<div id="html_acd95742c95e12c72aefa89a05dedf5d" style="width: 100.0%; height: 100.0%;"><b>Lixus Beach Resort</b><br>1 borne Type 2   22kw, 1 borne Tesla 22kw</div>`)[0];
+                popup_a52b43c6039771b56544efcca651ebd6.setContent(html_acd95742c95e12c72aefa89a05dedf5d);
+            
+        
+
+        marker_0216c03ab8b61db075c1c1c24f20ccbf.bindPopup(popup_a52b43c6039771b56544efcca651ebd6)
+        ;
+
+        
+    
+    
+            marker_0216c03ab8b61db075c1c1c24f20ccbf.bindTooltip(
+                `<div>
+                     Lixus Beach Resort
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0216c03ab8b61db075c1c1c24f20ccbf.setIcon(icon_0839ed1e8b5e964f73181a2df081e9e7);
+            
+    
+            var marker_c975c3270069ab7f48f769a3595045cf = L.marker(
+                [34.878009, -6.294076],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_9d03c39d72fe45ad4af4b6286b4fff31 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3a0a7291ecacb9751e4c7b7c9777b110 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c9678630e78d2315f509f4400bfacfd = $(`<div id="html_3c9678630e78d2315f509f4400bfacfd" style="width: 100.0%; height: 100.0%;"><b>WINXO Moulay Bousselham </b><br>Borne de recharge Type 2</div>`)[0];
+                popup_3a0a7291ecacb9751e4c7b7c9777b110.setContent(html_3c9678630e78d2315f509f4400bfacfd);
+            
+        
+
+        marker_c975c3270069ab7f48f769a3595045cf.bindPopup(popup_3a0a7291ecacb9751e4c7b7c9777b110)
+        ;
+
+        
+    
+    
+            marker_c975c3270069ab7f48f769a3595045cf.bindTooltip(
+                `<div>
+                     WINXO Moulay Bousselham 
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c975c3270069ab7f48f769a3595045cf.setIcon(icon_9d03c39d72fe45ad4af4b6286b4fff31);
+            
+    
+            var marker_e041a21884063e62c07d25634ac20b6b = L.marker(
+                [32.0, -6.0],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_bd319f4a33cd396d366a3e6c68e9d713 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6c7cf80ffaf8c20741bb54e220bf1fb0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_37c9d1fdbd6374c5b1346cab49bc7408 = $(`<div id="html_37c9d1fdbd6374c5b1346cab49bc7408" style="width: 100.0%; height: 100.0%;"><b>Station Winxo A1 Moulay Bousselham</b><br>2 bornes Type 2   22,5kw, 2 bornes Type 2 3,7kw</div>`)[0];
+                popup_6c7cf80ffaf8c20741bb54e220bf1fb0.setContent(html_37c9d1fdbd6374c5b1346cab49bc7408);
+            
+        
+
+        marker_e041a21884063e62c07d25634ac20b6b.bindPopup(popup_6c7cf80ffaf8c20741bb54e220bf1fb0)
+        ;
+
+        
+    
+    
+            marker_e041a21884063e62c07d25634ac20b6b.bindTooltip(
+                `<div>
+                     Station Winxo A1 Moulay Bousselham
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e041a21884063e62c07d25634ac20b6b.setIcon(icon_bd319f4a33cd396d366a3e6c68e9d713);
+            
+    
+            var marker_48ca63bf9fe4451e848653cc2dbf9b8f = L.marker(
+                [34.413438, -2.893825],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_2540d00f9317ce4ad96691dfc252f8f9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2ea6713bbb35e14490c893674919c610 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e1bfd3ad56d7b8b33d61f1d579f0bfcf = $(`<div id="html_e1bfd3ad56d7b8b33d61f1d579f0bfcf" style="width: 100.0%; height: 100.0%;"><b>Station Total Taourirt</b><br>1 borne Type 2   22kw</div>`)[0];
+                popup_2ea6713bbb35e14490c893674919c610.setContent(html_e1bfd3ad56d7b8b33d61f1d579f0bfcf);
+            
+        
+
+        marker_48ca63bf9fe4451e848653cc2dbf9b8f.bindPopup(popup_2ea6713bbb35e14490c893674919c610)
+        ;
+
+        
+    
+    
+            marker_48ca63bf9fe4451e848653cc2dbf9b8f.bindTooltip(
+                `<div>
+                     Station Total Taourirt
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_48ca63bf9fe4451e848653cc2dbf9b8f.setIcon(icon_2540d00f9317ce4ad96691dfc252f8f9);
+            
+    
+            var marker_9802ab9e4e8fc8072f9ec4e37ab02c32 = L.marker(
+                [34.230155, -4.010104],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_f422e078ef2d368508da7862087319d5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6d5503ca27a40a188f1561b36a172df2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f6d61e5af9949ddb3c08cc3ff2b71d4 = $(`<div id="html_3f6d61e5af9949ddb3c08cc3ff2b71d4" style="width: 100.0%; height: 100.0%;"><b>Complexe Agora Park Taza</b><br>2 bornes Type  2     22kw accéléré</div>`)[0];
+                popup_6d5503ca27a40a188f1561b36a172df2.setContent(html_3f6d61e5af9949ddb3c08cc3ff2b71d4);
+            
+        
+
+        marker_9802ab9e4e8fc8072f9ec4e37ab02c32.bindPopup(popup_6d5503ca27a40a188f1561b36a172df2)
+        ;
+
+        
+    
+    
+            marker_9802ab9e4e8fc8072f9ec4e37ab02c32.bindTooltip(
+                `<div>
+                     Complexe Agora Park Taza
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9802ab9e4e8fc8072f9ec4e37ab02c32.setIcon(icon_f422e078ef2d368508da7862087319d5);
+            
+    
+            var marker_de35a7d77f1c467cc71139a844912c5b = L.marker(
+                [34.0346534, -5.0161926],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_9ef890075643b86636d6f73285ef7793 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b145083de02c81c1838abd1d3cd77177 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_63ffa8f2163c563c612e1edc0574edb9 = $(`<div id="html_63ffa8f2163c563c612e1edc0574edb9" style="width: 100.0%; height: 100.0%;"><b>Université Euro Méditerranéenne de Fès</b><br>2 bornes Type 2   7kw      </div>`)[0];
+                popup_b145083de02c81c1838abd1d3cd77177.setContent(html_63ffa8f2163c563c612e1edc0574edb9);
+            
+        
+
+        marker_de35a7d77f1c467cc71139a844912c5b.bindPopup(popup_b145083de02c81c1838abd1d3cd77177)
+        ;
+
+        
+    
+    
+            marker_de35a7d77f1c467cc71139a844912c5b.bindTooltip(
+                `<div>
+                     Université Euro Méditerranéenne de Fès
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_de35a7d77f1c467cc71139a844912c5b.setIcon(icon_9ef890075643b86636d6f73285ef7793);
+            
+    
+            var marker_baaa5b7b43ec7c5ddc9440dc381e96ed = L.marker(
+                [33.476901, -5.1365704],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_d9047c5b3a3e838c07d0a3e7535d7561 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ad850c05ae6c3da3c5d14ba258c8c34f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f008b0d18b4c4ed0a372603a129232fd = $(`<div id="html_f008b0d18b4c4ed0a372603a129232fd" style="width: 100.0%; height: 100.0%;"><b>Camping Amazigh</b><br>1 prise domestique  2,4kw  RECHARGE PAYANTE</div>`)[0];
+                popup_ad850c05ae6c3da3c5d14ba258c8c34f.setContent(html_f008b0d18b4c4ed0a372603a129232fd);
+            
+        
+
+        marker_baaa5b7b43ec7c5ddc9440dc381e96ed.bindPopup(popup_ad850c05ae6c3da3c5d14ba258c8c34f)
+        ;
+
+        
+    
+    
+            marker_baaa5b7b43ec7c5ddc9440dc381e96ed.bindTooltip(
+                `<div>
+                     Camping Amazigh
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_baaa5b7b43ec7c5ddc9440dc381e96ed.setIcon(icon_d9047c5b3a3e838c07d0a3e7535d7561);
+            
+    
+            var marker_b57b75cff7143da01997ac0a58989c5c = L.marker(
+                [33.8984131, -5.5321582],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_8470b441db123ca358a39687b833233a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c9dd84006e031d99a349c188bccefd65 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_841367bb560721ca1eb41a71e741cfa4 = $(`<div id="html_841367bb560721ca1eb41a71e741cfa4" style="width: 100.0%; height: 100.0%;"><b>Zaki Suites Hôtel & Spa</b><br>1 borne Type 2   22kw, 1 borne Type 2  11kw, 1 borne Type 2  3,7kw  BIENTÔT FONCTIONNEL      </div>`)[0];
+                popup_c9dd84006e031d99a349c188bccefd65.setContent(html_841367bb560721ca1eb41a71e741cfa4);
+            
+        
+
+        marker_b57b75cff7143da01997ac0a58989c5c.bindPopup(popup_c9dd84006e031d99a349c188bccefd65)
+        ;
+
+        
+    
+    
+            marker_b57b75cff7143da01997ac0a58989c5c.bindTooltip(
+                `<div>
+                     Zaki Suites Hôtel & Spa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b57b75cff7143da01997ac0a58989c5c.setIcon(icon_8470b441db123ca358a39687b833233a);
+            
+    
+            var marker_30e90b56b168dba1bfbf4e9adad7bb4d = L.marker(
+                [33.830287, -6.072605],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_f8c649bac154cec20e29fda649e01743 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bed0d4cad66baca1ace362160b7f93f8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c52f657139e43f6b40c69d1f702245bd = $(`<div id="html_c52f657139e43f6b40c69d1f702245bd" style="width: 100.0%; height: 100.0%;"><b>Station-service Total Relais D'Oulmes</b><br>1 borne Type 2            22kw</div>`)[0];
+                popup_bed0d4cad66baca1ace362160b7f93f8.setContent(html_c52f657139e43f6b40c69d1f702245bd);
+            
+        
+
+        marker_30e90b56b168dba1bfbf4e9adad7bb4d.bindPopup(popup_bed0d4cad66baca1ace362160b7f93f8)
+        ;
+
+        
+    
+    
+            marker_30e90b56b168dba1bfbf4e9adad7bb4d.bindTooltip(
+                `<div>
+                     Station-service Total Relais D'Oulmes
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_30e90b56b168dba1bfbf4e9adad7bb4d.setIcon(icon_f8c649bac154cec20e29fda649e01743);
+            
+    
+            var marker_dc4e8624cf9cf9b80bd01fd7cf12d79c = L.marker(
+                [34.26457, -6.570169],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_3bb277a2da342a2d7f1078304515be57 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c5ee89142ad5f3457014482014fc7c54 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9043dc9cf008ca9f27c57ec7b3a08dbe = $(`<div id="html_9043dc9cf008ca9f27c57ec7b3a08dbe" style="width: 100.0%; height: 100.0%;"><b>Station SHELL Saf Saf kenitra</b><br>3 bornes Combo ccs, Type 2, Chademo  50kw, 2 bornes Type 2  22kw     </div>`)[0];
+                popup_c5ee89142ad5f3457014482014fc7c54.setContent(html_9043dc9cf008ca9f27c57ec7b3a08dbe);
+            
+        
+
+        marker_dc4e8624cf9cf9b80bd01fd7cf12d79c.bindPopup(popup_c5ee89142ad5f3457014482014fc7c54)
+        ;
+
+        
+    
+    
+            marker_dc4e8624cf9cf9b80bd01fd7cf12d79c.bindTooltip(
+                `<div>
+                     Station SHELL Saf Saf kenitra
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_dc4e8624cf9cf9b80bd01fd7cf12d79c.setIcon(icon_3bb277a2da342a2d7f1078304515be57);
+            
+    
+            var marker_af1bd5cc19185dbeb5ad1992d57302d9 = L.marker(
+                [34.0218454, -6.8408929],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_eb07af26f9607e6a85608f0acd5c14ec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dc735104004d36a2692b3e73135e65b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_df9277ddd92cb4739998f49108326aa3 = $(`<div id="html_df9277ddd92cb4739998f49108326aa3" style="width: 100.0%; height: 100.0%;"><b>Société du Tramway de Rabat Salé</b><br>2 bornes Type 2    22kw</div>`)[0];
+                popup_dc735104004d36a2692b3e73135e65b7.setContent(html_df9277ddd92cb4739998f49108326aa3);
+            
+        
+
+        marker_af1bd5cc19185dbeb5ad1992d57302d9.bindPopup(popup_dc735104004d36a2692b3e73135e65b7)
+        ;
+
+        
+    
+    
+            marker_af1bd5cc19185dbeb5ad1992d57302d9.bindTooltip(
+                `<div>
+                     Société du Tramway de Rabat Salé
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_af1bd5cc19185dbeb5ad1992d57302d9.setIcon(icon_eb07af26f9607e6a85608f0acd5c14ec);
+            
+    
+            var marker_d14dcb8bc2b6dd720d08e4bb69abde17 = L.marker(
+                [34.0218454, -6.8408929],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_f889224d5013a8ed417c486453132dc7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_90457b2c1020e0f10ab913416190ebdf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a04ba831016f93d944a340c0be250901 = $(`<div id="html_a04ba831016f93d944a340c0be250901" style="width: 100.0%; height: 100.0%;"><b>Marjane Agdal Ryad</b><br>4 bornes 22kw      Type 2</div>`)[0];
+                popup_90457b2c1020e0f10ab913416190ebdf.setContent(html_a04ba831016f93d944a340c0be250901);
+            
+        
+
+        marker_d14dcb8bc2b6dd720d08e4bb69abde17.bindPopup(popup_90457b2c1020e0f10ab913416190ebdf)
+        ;
+
+        
+    
+    
+            marker_d14dcb8bc2b6dd720d08e4bb69abde17.bindTooltip(
+                `<div>
+                     Marjane Agdal Ryad
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d14dcb8bc2b6dd720d08e4bb69abde17.setIcon(icon_f889224d5013a8ed417c486453132dc7);
+            
+    
+            var marker_b4b8ffb4036f1008be1fdd2ab99b8fee = L.marker(
+                [34.0218454, -6.8408929],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_3f1f637b8044de8ff6054799fea151cf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9e6079d2851179485c1550444c362b2a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb42db7ac63f7f05ebba904e6738792f = $(`<div id="html_bb42db7ac63f7f05ebba904e6738792f" style="width: 100.0%; height: 100.0%;"><b>Station-service Total Tamesna</b><br>1 borne  Type 2    22kw</div>`)[0];
+                popup_9e6079d2851179485c1550444c362b2a.setContent(html_bb42db7ac63f7f05ebba904e6738792f);
+            
+        
+
+        marker_b4b8ffb4036f1008be1fdd2ab99b8fee.bindPopup(popup_9e6079d2851179485c1550444c362b2a)
+        ;
+
+        
+    
+    
+            marker_b4b8ffb4036f1008be1fdd2ab99b8fee.bindTooltip(
+                `<div>
+                     Station-service Total Tamesna
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b4b8ffb4036f1008be1fdd2ab99b8fee.setIcon(icon_3f1f637b8044de8ff6054799fea151cf);
+            
+    
+            var marker_b30a544497a7437ba4eb3c30365748f7 = L.marker(
+                [34.0218454, -6.8408929],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_dbfbc9ece467ab7f10126229efc9cb54 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dded64d3ea0d9aed45ce3a6152549d8d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_82a7d55b5dea03686e504ed7a365992d = $(`<div id="html_82a7d55b5dea03686e504ed7a365992d" style="width: 100.0%; height: 100.0%;"><b>IRESEN</b><br>2 bornes Type 2       22kw</div>`)[0];
+                popup_dded64d3ea0d9aed45ce3a6152549d8d.setContent(html_82a7d55b5dea03686e504ed7a365992d);
+            
+        
+
+        marker_b30a544497a7437ba4eb3c30365748f7.bindPopup(popup_dded64d3ea0d9aed45ce3a6152549d8d)
+        ;
+
+        
+    
+    
+            marker_b30a544497a7437ba4eb3c30365748f7.bindTooltip(
+                `<div>
+                     IRESEN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b30a544497a7437ba4eb3c30365748f7.setIcon(icon_dbfbc9ece467ab7f10126229efc9cb54);
+            
+    
+            var marker_78ac87dc9b7cb74025102a599a7e88e6 = L.marker(
+                [34.0218454, -6.8408929],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_993a867f7ad8649527a49c079a0cf2c2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8f73e2945a59de6e5e061b965176e5d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b480a0ad9c9449c8e1a3269b54df7299 = $(`<div id="html_b480a0ad9c9449c8e1a3269b54df7299" style="width: 100.0%; height: 100.0%;"><b>Mega Mall Rabat</b><br>2 bornes Type 2     22kw</div>`)[0];
+                popup_8f73e2945a59de6e5e061b965176e5d8.setContent(html_b480a0ad9c9449c8e1a3269b54df7299);
+            
+        
+
+        marker_78ac87dc9b7cb74025102a599a7e88e6.bindPopup(popup_8f73e2945a59de6e5e061b965176e5d8)
+        ;
+
+        
+    
+    
+            marker_78ac87dc9b7cb74025102a599a7e88e6.bindTooltip(
+                `<div>
+                     Mega Mall Rabat
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_78ac87dc9b7cb74025102a599a7e88e6.setIcon(icon_993a867f7ad8649527a49c079a0cf2c2);
+            
+    
+            var marker_36e5c3b3877927225123830db52edf9c = L.marker(
+                [34.5150957, -3.8933886],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_e362908dcc8ff7c9c1111d1a637fd7dc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e3f6de28b1378eb6e8b68dc0ce44f908 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2a9ca5da9ed9dbcc641c2430e9e565d8 = $(`<div id="html_2a9ca5da9ed9dbcc641c2430e9e565d8" style="width: 100.0%; height: 100.0%;"><b>Tesla Club Morocco</b><br>1 borne Tesla   7kw-22kw.</div>`)[0];
+                popup_e3f6de28b1378eb6e8b68dc0ce44f908.setContent(html_2a9ca5da9ed9dbcc641c2430e9e565d8);
+            
+        
+
+        marker_36e5c3b3877927225123830db52edf9c.bindPopup(popup_e3f6de28b1378eb6e8b68dc0ce44f908)
+        ;
+
+        
+    
+    
+            marker_36e5c3b3877927225123830db52edf9c.bindTooltip(
+                `<div>
+                     Tesla Club Morocco
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_36e5c3b3877927225123830db52edf9c.setIcon(icon_e362908dcc8ff7c9c1111d1a637fd7dc);
+            
+    
+            var marker_565afaf8e57a130fc634d89390c61f67 = L.marker(
+                [34.0218454, -6.8408929],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_049f12e53cd09998d81323d25ae042ad = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_77ae30b1c01b3cbdd360cc7346c02f5a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0decd502ba5ef458e093ee187a2199f1 = $(`<div id="html_0decd502ba5ef458e093ee187a2199f1" style="width: 100.0%; height: 100.0%;"><b>Station-service Total Relais Bouregreg</b><br>1 borne Type 2  43kw, 2 bornes Combo CCS, Chademo 50kw      </div>`)[0];
+                popup_77ae30b1c01b3cbdd360cc7346c02f5a.setContent(html_0decd502ba5ef458e093ee187a2199f1);
+            
+        
+
+        marker_565afaf8e57a130fc634d89390c61f67.bindPopup(popup_77ae30b1c01b3cbdd360cc7346c02f5a)
+        ;
+
+        
+    
+    
+            marker_565afaf8e57a130fc634d89390c61f67.bindTooltip(
+                `<div>
+                     Station-service Total Relais Bouregreg
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_565afaf8e57a130fc634d89390c61f67.setIcon(icon_049f12e53cd09998d81323d25ae042ad);
+            
+    
+            var marker_2e249a4816f0aa5a30702fc87151d120 = L.marker(
+                [33.781005, -7.1610294],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_8329d54c0eb36eafed6694433208c576 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1901f4d73cd1247ed070a263aba5c7ae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf58db24a1df32c1ac5d76080c370d52 = $(`<div id="html_bf58db24a1df32c1ac5d76080c370d52" style="width: 100.0%; height: 100.0%;"><b>7 Boulevard Hassan II</b><br>1 borne wall box 7,5kw  BMW I3</div>`)[0];
+                popup_1901f4d73cd1247ed070a263aba5c7ae.setContent(html_bf58db24a1df32c1ac5d76080c370d52);
+            
+        
+
+        marker_2e249a4816f0aa5a30702fc87151d120.bindPopup(popup_1901f4d73cd1247ed070a263aba5c7ae)
+        ;
+
+        
+    
+    
+            marker_2e249a4816f0aa5a30702fc87151d120.bindTooltip(
+                `<div>
+                     7 Boulevard Hassan II
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2e249a4816f0aa5a30702fc87151d120.setIcon(icon_8329d54c0eb36eafed6694433208c576);
+            
+    
+            var marker_9ba7ad60bb43ca0ece227791deb5c112 = L.marker(
+                [33.781005, -7.1610294],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_dbd7415752d597ca703617d257e3b189 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6febfb790797881ac8e2c89f31ca9230 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0fe3990e5f57843b0b083a8626d27c3e = $(`<div id="html_0fe3990e5f57843b0b083a8626d27c3e" style="width: 100.0%; height: 100.0%;"><b>Station service shell Bouznika</b><br>2 bornes Type 2      22,5kw accéléré</div>`)[0];
+                popup_6febfb790797881ac8e2c89f31ca9230.setContent(html_0fe3990e5f57843b0b083a8626d27c3e);
+            
+        
+
+        marker_9ba7ad60bb43ca0ece227791deb5c112.bindPopup(popup_6febfb790797881ac8e2c89f31ca9230)
+        ;
+
+        
+    
+    
+            marker_9ba7ad60bb43ca0ece227791deb5c112.bindTooltip(
+                `<div>
+                     Station service shell Bouznika
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9ba7ad60bb43ca0ece227791deb5c112.setIcon(icon_dbd7415752d597ca703617d257e3b189);
+            
+    
+            var marker_85d9bec8c3536383b20042a4875fde17 = L.marker(
+                [33.6958383, -7.3893292],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_b8fd9d5fd706a6f35c307da9137f458e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c0a5c970bae5d161b7a1ed9500800a31 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5134a3f3876c4209995778a5d3d72a29 = $(`<div id="html_5134a3f3876c4209995778a5d3d72a29" style="width: 100.0%; height: 100.0%;"><b>Novotel Mohammedia</b><br>1 borne  Three Phase  7kw</div>`)[0];
+                popup_c0a5c970bae5d161b7a1ed9500800a31.setContent(html_5134a3f3876c4209995778a5d3d72a29);
+            
+        
+
+        marker_85d9bec8c3536383b20042a4875fde17.bindPopup(popup_c0a5c970bae5d161b7a1ed9500800a31)
+        ;
+
+        
+    
+    
+            marker_85d9bec8c3536383b20042a4875fde17.bindTooltip(
+                `<div>
+                     Novotel Mohammedia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_85d9bec8c3536383b20042a4875fde17.setIcon(icon_b8fd9d5fd706a6f35c307da9137f458e);
+            
+    
+            var marker_e5cf7e24c97e8f3188cec1da8627a3b2 = L.marker(
+                [33.6958383, -7.3893292],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_ee0490a6e20af82872ee213da92d5821 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a950431e656ed2fb9de7973313fe483f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3737d1954ce13f8d256a8cfb49071549 = $(`<div id="html_3737d1954ce13f8d256a8cfb49071549" style="width: 100.0%; height: 100.0%;"><b>SNTL Autoroute A1</b><br>1 borne CEE Three Phase  22kw</div>`)[0];
+                popup_a950431e656ed2fb9de7973313fe483f.setContent(html_3737d1954ce13f8d256a8cfb49071549);
+            
+        
+
+        marker_e5cf7e24c97e8f3188cec1da8627a3b2.bindPopup(popup_a950431e656ed2fb9de7973313fe483f)
+        ;
+
+        
+    
+    
+            marker_e5cf7e24c97e8f3188cec1da8627a3b2.bindTooltip(
+                `<div>
+                     SNTL Autoroute A1
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e5cf7e24c97e8f3188cec1da8627a3b2.setIcon(icon_ee0490a6e20af82872ee213da92d5821);
+            
+    
+            var marker_b55e3181aba277d8da105eab6a80a6c4 = L.marker(
+                [33.5945144, -7.6200284],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_9288c737080f7e63c0fa8f6b625ee5ec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e1f33691a20c40a310bac550298c4201 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_49affd6557561391b51f5fa26ea7318b = $(`<div id="html_49affd6557561391b51f5fa26ea7318b" style="width: 100.0%; height: 100.0%;"><b>Star Bobinage</b><br>1 borne  J 1772  3,7kw</div>`)[0];
+                popup_e1f33691a20c40a310bac550298c4201.setContent(html_49affd6557561391b51f5fa26ea7318b);
+            
+        
+
+        marker_b55e3181aba277d8da105eab6a80a6c4.bindPopup(popup_e1f33691a20c40a310bac550298c4201)
+        ;
+
+        
+    
+    
+            marker_b55e3181aba277d8da105eab6a80a6c4.bindTooltip(
+                `<div>
+                     Star Bobinage
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b55e3181aba277d8da105eab6a80a6c4.setIcon(icon_9288c737080f7e63c0fa8f6b625ee5ec);
+            
+    
+            var marker_d22c487057df909c24f4e1f99bd39417 = L.marker(
+                [33.5945144, -7.6200284],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_d8eb40ec93637221cd5a7e658a293a3c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2cb29f95be05f8755702821cd12e696b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_318091ade8b6b796e32fe9b52556700b = $(`<div id="html_318091ade8b6b796e32fe9b52556700b" style="width: 100.0%; height: 100.0%;"><b>Smeia - BMW Motorrad Casablanca / Maroc</b><br>1 borne Type 2    22kw BMW I3</div>`)[0];
+                popup_2cb29f95be05f8755702821cd12e696b.setContent(html_318091ade8b6b796e32fe9b52556700b);
+            
+        
+
+        marker_d22c487057df909c24f4e1f99bd39417.bindPopup(popup_2cb29f95be05f8755702821cd12e696b)
+        ;
+
+        
+    
+    
+            marker_d22c487057df909c24f4e1f99bd39417.bindTooltip(
+                `<div>
+                     Smeia - BMW Motorrad Casablanca / Maroc
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d22c487057df909c24f4e1f99bd39417.setIcon(icon_d8eb40ec93637221cd5a7e658a293a3c);
+            
+    
+            var marker_ce7a29cd78ba9177925397d6091f0020 = L.marker(
+                [33.5945144, -7.6200284],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_61fe7d0c16c6eb6b76edbe32723bfc07 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e730cad9c6c3b449ddb86bb7839705c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eab94c4c3132c649b956f8b4e28afe4c = $(`<div id="html_eab94c4c3132c649b956f8b4e28afe4c" style="width: 100.0%; height: 100.0%;"><b>IMARSI</b><br>1 borne Type 3 3,7kw, 1 borne Type 2  3,7kw</div>`)[0];
+                popup_e730cad9c6c3b449ddb86bb7839705c5.setContent(html_eab94c4c3132c649b956f8b4e28afe4c);
+            
+        
+
+        marker_ce7a29cd78ba9177925397d6091f0020.bindPopup(popup_e730cad9c6c3b449ddb86bb7839705c5)
+        ;
+
+        
+    
+    
+            marker_ce7a29cd78ba9177925397d6091f0020.bindTooltip(
+                `<div>
+                     IMARSI
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ce7a29cd78ba9177925397d6091f0020.setIcon(icon_61fe7d0c16c6eb6b76edbe32723bfc07);
+            
+    
+            var marker_2cc6be0455a981ea6f8e0959a13c4eac = L.marker(
+                [33.5945144, -7.6200284],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_a2898a8fd4448d7a38e78d5210ab0900 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d2f12787aec4174a49eff336472dc755 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_817512603f161b7ba672ba6dc1c308f5 = $(`<div id="html_817512603f161b7ba672ba6dc1c308f5" style="width: 100.0%; height: 100.0%;"><b>Hôtel ibis Casa Voyageurs</b><br>1 borne domestique 4,5kw</div>`)[0];
+                popup_d2f12787aec4174a49eff336472dc755.setContent(html_817512603f161b7ba672ba6dc1c308f5);
+            
+        
+
+        marker_2cc6be0455a981ea6f8e0959a13c4eac.bindPopup(popup_d2f12787aec4174a49eff336472dc755)
+        ;
+
+        
+    
+    
+            marker_2cc6be0455a981ea6f8e0959a13c4eac.bindTooltip(
+                `<div>
+                     Hôtel ibis Casa Voyageurs
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2cc6be0455a981ea6f8e0959a13c4eac.setIcon(icon_a2898a8fd4448d7a38e78d5210ab0900);
+            
+    
+            var marker_a17154e3320292250325ac64af3012e3 = L.marker(
+                [33.5945144, -7.6200284],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_381d0cf54f446bb7f30f374c8a101548 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_91f03bbf1cdb1129e13f9afef4279267 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a2722b3b4aaecf6ab338be86468d650e = $(`<div id="html_a2722b3b4aaecf6ab338be86468d650e" style="width: 100.0%; height: 100.0%;"><b>Parking Place Rachidi</b><br>4 bornes 50kw  Combo CCS, Chademo, 2 bornes Type 2  22kw    </div>`)[0];
+                popup_91f03bbf1cdb1129e13f9afef4279267.setContent(html_a2722b3b4aaecf6ab338be86468d650e);
+            
+        
+
+        marker_a17154e3320292250325ac64af3012e3.bindPopup(popup_91f03bbf1cdb1129e13f9afef4279267)
+        ;
+
+        
+    
+    
+            marker_a17154e3320292250325ac64af3012e3.bindTooltip(
+                `<div>
+                     Parking Place Rachidi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a17154e3320292250325ac64af3012e3.setIcon(icon_381d0cf54f446bb7f30f374c8a101548);
+            
+    
+            var marker_47b68d5ecdbb7eb246355dc8afb3595e = L.marker(
+                [33.5945144, -7.6200284],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_b54f2b03463220e1effc14c1cfdf9542 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2a82e5540bcffc369d9eac946be52feb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_63b8a9eba45dcef57ea1576f413d81df = $(`<div id="html_63b8a9eba45dcef57ea1576f413d81df" style="width: 100.0%; height: 100.0%;"><b>Station-service Total Riviera</b><br>2 bornes  Type 2   22kw</div>`)[0];
+                popup_2a82e5540bcffc369d9eac946be52feb.setContent(html_63b8a9eba45dcef57ea1576f413d81df);
+            
+        
+
+        marker_47b68d5ecdbb7eb246355dc8afb3595e.bindPopup(popup_2a82e5540bcffc369d9eac946be52feb)
+        ;
+
+        
+    
+    
+            marker_47b68d5ecdbb7eb246355dc8afb3595e.bindTooltip(
+                `<div>
+                     Station-service Total Riviera
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_47b68d5ecdbb7eb246355dc8afb3595e.setIcon(icon_b54f2b03463220e1effc14c1cfdf9542);
+            
+    
+            var marker_09bab959912bcc38088465bd52144c64 = L.marker(
+                [33.5945144, -7.6200284],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_2d85b9d7dd593d35bf7ab9de8141c60e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fd85b00ac56f4b6bec5f1212b759f564 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b3b9db1df77087db2f0d9044c77f4804 = $(`<div id="html_b3b9db1df77087db2f0d9044c77f4804" style="width: 100.0%; height: 100.0%;"><b>station-service Shell exit casa</b><br>2 bornes Type 2   22,5kw accéléré</div>`)[0];
+                popup_fd85b00ac56f4b6bec5f1212b759f564.setContent(html_b3b9db1df77087db2f0d9044c77f4804);
+            
+        
+
+        marker_09bab959912bcc38088465bd52144c64.bindPopup(popup_fd85b00ac56f4b6bec5f1212b759f564)
+        ;
+
+        
+    
+    
+            marker_09bab959912bcc38088465bd52144c64.bindTooltip(
+                `<div>
+                     station-service Shell exit casa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_09bab959912bcc38088465bd52144c64.setIcon(icon_2d85b9d7dd593d35bf7ab9de8141c60e);
+            
+    
+            var marker_705dfb1aff420e4bb8eaef736f97b05c = L.marker(
+                [35.7718665, -5.9089654],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_404ec90accbfe76d7e9c54297ae51727 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b4a65491809e17d929c371fdc21d6315 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f0cd5cec0e3c86f493b97c1f8a35855 = $(`<div id="html_9f0cd5cec0e3c86f493b97c1f8a35855" style="width: 100.0%; height: 100.0%;"><b>ev-box Charging Station Mediouna à 800 mètres Station Total Mediouna .</b><br>2 bornes Type 2  22kw    </div>`)[0];
+                popup_b4a65491809e17d929c371fdc21d6315.setContent(html_9f0cd5cec0e3c86f493b97c1f8a35855);
+            
+        
+
+        marker_705dfb1aff420e4bb8eaef736f97b05c.bindPopup(popup_b4a65491809e17d929c371fdc21d6315)
+        ;
+
+        
+    
+    
+            marker_705dfb1aff420e4bb8eaef736f97b05c.bindTooltip(
+                `<div>
+                     ev-box Charging Station Mediouna à 800 mètres Station Total Mediouna .
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_705dfb1aff420e4bb8eaef736f97b05c.setIcon(icon_404ec90accbfe76d7e9c54297ae51727);
+            
+    
+            var marker_980b5b3841fe6c98057bc60f9ee28317 = L.marker(
+                [33.436117, -5.221913],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_76f70efe212f65b2f875b22097809c8a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b51be48abd35c5b8f98e43a19fec3a0e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2057f5168350a5729163f4ac37048e91 = $(`<div id="html_2057f5168350a5729163f4ac37048e91" style="width: 100.0%; height: 100.0%;"><b>EV-Box Charging Station</b><br>4 bornes Type 2  11kw, 2 bornes Type 2  22kw</div>`)[0];
+                popup_b51be48abd35c5b8f98e43a19fec3a0e.setContent(html_2057f5168350a5729163f4ac37048e91);
+            
+        
+
+        marker_980b5b3841fe6c98057bc60f9ee28317.bindPopup(popup_b51be48abd35c5b8f98e43a19fec3a0e)
+        ;
+
+        
+    
+    
+            marker_980b5b3841fe6c98057bc60f9ee28317.bindTooltip(
+                `<div>
+                     EV-Box Charging Station
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_980b5b3841fe6c98057bc60f9ee28317.setIcon(icon_76f70efe212f65b2f875b22097809c8a);
+            
+    
+            var marker_e8e257ae7390f705432deb0ef70cee22 = L.marker(
+                [33.436117, -5.221913],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_7e70ec005758f6a728a9e297f7892cb2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_acfc7cec4088c4a9f76849b2c89b64f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_40188ec48595f98abc2c0f29e3397116 = $(`<div id="html_40188ec48595f98abc2c0f29e3397116" style="width: 100.0%; height: 100.0%;"><b>Parc Derichebourg</b><br>2 bornes Type 2       22kw      RECHARGE PAYANTE</div>`)[0];
+                popup_acfc7cec4088c4a9f76849b2c89b64f5.setContent(html_40188ec48595f98abc2c0f29e3397116);
+            
+        
+
+        marker_e8e257ae7390f705432deb0ef70cee22.bindPopup(popup_acfc7cec4088c4a9f76849b2c89b64f5)
+        ;
+
+        
+    
+    
+            marker_e8e257ae7390f705432deb0ef70cee22.bindTooltip(
+                `<div>
+                     Parc Derichebourg
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e8e257ae7390f705432deb0ef70cee22.setIcon(icon_7e70ec005758f6a728a9e297f7892cb2);
+            
+    
+            var marker_d8e60df344608252c136d49ec8adc42c = L.marker(
+                [35.7718665, -5.9089654],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_ef8c0fadb4aa058d4df6e35503b2e4c7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_86eba326d2cb081ca5c32eebfb135789 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a624f0a7a2945ab698b2cd9f3bbe7c3 = $(`<div id="html_7a624f0a7a2945ab698b2cd9f3bbe7c3" style="width: 100.0%; height: 100.0%;"><b>ev-box Charging Station Mediouna à 800 mètres Station Total Mediouna .</b><br>2 bornes Type 2  22kw </div>`)[0];
+                popup_86eba326d2cb081ca5c32eebfb135789.setContent(html_7a624f0a7a2945ab698b2cd9f3bbe7c3);
+            
+        
+
+        marker_d8e60df344608252c136d49ec8adc42c.bindPopup(popup_86eba326d2cb081ca5c32eebfb135789)
+        ;
+
+        
+    
+    
+            marker_d8e60df344608252c136d49ec8adc42c.bindTooltip(
+                `<div>
+                     ev-box Charging Station Mediouna à 800 mètres Station Total Mediouna .
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d8e60df344608252c136d49ec8adc42c.setIcon(icon_ef8c0fadb4aa058d4df6e35503b2e4c7);
+            
+    
+            var marker_b76f935575528fd4d4bd7e873d177507 = L.marker(
+                [33.2676746, -7.5811465],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_81544f46f31c3eb53519c82ea6bb430a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8ebbd7d6c24a12e28c3fe847d4355771 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb0d1cb54631a18ffa42186ba5bdad54 = $(`<div id="html_bb0d1cb54631a18ffa42186ba5bdad54" style="width: 100.0%; height: 100.0%;"><b>Station Total - Relais Chaouia Berrchid</b><br>1 borne Type 2  43kw 2 bornes 50kw   </div>`)[0];
+                popup_8ebbd7d6c24a12e28c3fe847d4355771.setContent(html_bb0d1cb54631a18ffa42186ba5bdad54);
+            
+        
+
+        marker_b76f935575528fd4d4bd7e873d177507.bindPopup(popup_8ebbd7d6c24a12e28c3fe847d4355771)
+        ;
+
+        
+    
+    
+            marker_b76f935575528fd4d4bd7e873d177507.bindTooltip(
+                `<div>
+                     Station Total - Relais Chaouia Berrchid
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b76f935575528fd4d4bd7e873d177507.setIcon(icon_81544f46f31c3eb53519c82ea6bb430a);
+            
+    
+            var marker_30fcafb9be18f77203f262109f2f80b2 = L.marker(
+                [32.1164, -4.37125],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_67393d1d04072aefedc5a0a6c88b7cef = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_98afa8d2333dc01f2c7f42fc749c7e72 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_244000788cfcd78a7c6778a049dc2b16 = $(`<div id="html_244000788cfcd78a7c6778a049dc2b16" style="width: 100.0%; height: 100.0%;"><b>Kasbah Hotel Camping Jurassique</b><br>1 prise  monophasé 2,3kw   </div>`)[0];
+                popup_98afa8d2333dc01f2c7f42fc749c7e72.setContent(html_244000788cfcd78a7c6778a049dc2b16);
+            
+        
+
+        marker_30fcafb9be18f77203f262109f2f80b2.bindPopup(popup_98afa8d2333dc01f2c7f42fc749c7e72)
+        ;
+
+        
+    
+    
+            marker_30fcafb9be18f77203f262109f2f80b2.bindTooltip(
+                `<div>
+                     Kasbah Hotel Camping Jurassique
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_30fcafb9be18f77203f262109f2f80b2.setIcon(icon_67393d1d04072aefedc5a0a6c88b7cef);
+            
+    
+            var marker_69a2758931db88e265827794fa39f855 = L.marker(
+                [33.002397, -7.619867],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_ec385c34c6e65c1bafeca7a3c1087799 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f70a406f9f87cd8fd66feeb2684322cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_81a8fba610d7244847fef12955ee5b35 = $(`<div id="html_81a8fba610d7244847fef12955ee5b35" style="width: 100.0%; height: 100.0%;"><b>Afriquia Settat A7</b><br>1 borne Type 2      22kw</div>`)[0];
+                popup_f70a406f9f87cd8fd66feeb2684322cd.setContent(html_81a8fba610d7244847fef12955ee5b35);
+            
+        
+
+        marker_69a2758931db88e265827794fa39f855.bindPopup(popup_f70a406f9f87cd8fd66feeb2684322cd)
+        ;
+
+        
+    
+    
+            marker_69a2758931db88e265827794fa39f855.bindTooltip(
+                `<div>
+                     Afriquia Settat A7
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_69a2758931db88e265827794fa39f855.setIcon(icon_ec385c34c6e65c1bafeca7a3c1087799);
+            
+    
+            var marker_645e2dcb8ba62c18a230744d5d571b4e = L.marker(
+                [33.2433309, -8.49884],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_f9e1eb9f39703d591c3e8c2f993f14ab = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a4bbd0409403f1a320c06ca69d705a67 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d6025a8f487d3d213e201c23f39e15c0 = $(`<div id="html_d6025a8f487d3d213e201c23f39e15c0" style="width: 100.0%; height: 100.0%;"><b>EV-Box Charging Station EL JADIDA</b><br>2 bornes Type 2     22kw</div>`)[0];
+                popup_a4bbd0409403f1a320c06ca69d705a67.setContent(html_d6025a8f487d3d213e201c23f39e15c0);
+            
+        
+
+        marker_645e2dcb8ba62c18a230744d5d571b4e.bindPopup(popup_a4bbd0409403f1a320c06ca69d705a67)
+        ;
+
+        
+    
+    
+            marker_645e2dcb8ba62c18a230744d5d571b4e.bindTooltip(
+                `<div>
+                     EV-Box Charging Station EL JADIDA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_645e2dcb8ba62c18a230744d5d571b4e.setIcon(icon_f9e1eb9f39703d591c3e8c2f993f14ab);
+            
+    
+            var marker_d12e17caaa85af89146f7f3de3ab9481 = L.marker(
+                [33.2433309, -8.49884],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_72efe5e421d092320227d107b3053e1b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cf4a24fa6aae05762e119b3b8c4b5ca3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_58979c828bc8b87dac4b3559f81041f6 = $(`<div id="html_58979c828bc8b87dac4b3559f81041f6" style="width: 100.0%; height: 100.0%;"><b>Station-service Total Relais Mazagan</b><br>1 borne Type 2     22kw</div>`)[0];
+                popup_cf4a24fa6aae05762e119b3b8c4b5ca3.setContent(html_58979c828bc8b87dac4b3559f81041f6);
+            
+        
+
+        marker_d12e17caaa85af89146f7f3de3ab9481.bindPopup(popup_cf4a24fa6aae05762e119b3b8c4b5ca3)
+        ;
+
+        
+    
+    
+            marker_d12e17caaa85af89146f7f3de3ab9481.bindTooltip(
+                `<div>
+                     Station-service Total Relais Mazagan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d12e17caaa85af89146f7f3de3ab9481.setIcon(icon_72efe5e421d092320227d107b3053e1b);
+            
+    
+            var marker_209c2f91f61b3c7d47b5a9c0d28bc8a9 = L.marker(
+                [32.239034, -7.958131],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_6127d50c3e6398ae1bc874d05dc648bc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4e005747210e799b198ad55648212ee8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_160b75fa22a61536074e1f23dd73f711 = $(`<div id="html_160b75fa22a61536074e1f23dd73f711" style="width: 100.0%; height: 100.0%;"><b>Shell Station Benguerir</b><br>2 bornes Type 2     22,5kw   accéléré</div>`)[0];
+                popup_4e005747210e799b198ad55648212ee8.setContent(html_160b75fa22a61536074e1f23dd73f711);
+            
+        
+
+        marker_209c2f91f61b3c7d47b5a9c0d28bc8a9.bindPopup(popup_4e005747210e799b198ad55648212ee8)
+        ;
+
+        
+    
+    
+            marker_209c2f91f61b3c7d47b5a9c0d28bc8a9.bindTooltip(
+                `<div>
+                     Shell Station Benguerir
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_209c2f91f61b3c7d47b5a9c0d28bc8a9.setIcon(icon_6127d50c3e6398ae1bc874d05dc648bc);
+            
+    
+            var marker_6ca693667dcb7ef407d12e5c2c5cb129 = L.marker(
+                [32.239034, -7.958131],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_33dd1e7d10516516e4e4339ce853732e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4814ac2077a7dfc73cbb1db6998b45ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_186fde50d36816f4ad4ed9ec63aa41e5 = $(`<div id="html_186fde50d36816f4ad4ed9ec63aa41e5" style="width: 100.0%; height: 100.0%;"><b>Green Energy Park</b><br>6 bornes Type 2  22kw.</div>`)[0];
+                popup_4814ac2077a7dfc73cbb1db6998b45ac.setContent(html_186fde50d36816f4ad4ed9ec63aa41e5);
+            
+        
+
+        marker_6ca693667dcb7ef407d12e5c2c5cb129.bindPopup(popup_4814ac2077a7dfc73cbb1db6998b45ac)
+        ;
+
+        
+    
+    
+            marker_6ca693667dcb7ef407d12e5c2c5cb129.bindTooltip(
+                `<div>
+                     Green Energy Park
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6ca693667dcb7ef407d12e5c2c5cb129.setIcon(icon_33dd1e7d10516516e4e4339ce853732e);
+            
+    
+            var marker_53ba2171ea89b0d6e91e6fda96deedbf = L.marker(
+                [31.666045, -7.7875408],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_65a279577c0661bb9f99f8c76313dbeb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a844316aa21707389eb537c54b6965f9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_781aa1279296d8530951ddc8503a5503 = $(`<div id="html_781aa1279296d8530951ddc8503a5503" style="width: 100.0%; height: 100.0%;"><b>Station Total Relais Chichaoua</b><br>1 borne Type 2    22kw accéléré</div>`)[0];
+                popup_a844316aa21707389eb537c54b6965f9.setContent(html_781aa1279296d8530951ddc8503a5503);
+            
+        
+
+        marker_53ba2171ea89b0d6e91e6fda96deedbf.bindPopup(popup_a844316aa21707389eb537c54b6965f9)
+        ;
+
+        
+    
+    
+            marker_53ba2171ea89b0d6e91e6fda96deedbf.bindTooltip(
+                `<div>
+                     Station Total Relais Chichaoua
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_53ba2171ea89b0d6e91e6fda96deedbf.setIcon(icon_65a279577c0661bb9f99f8c76313dbeb);
+            
+    
+            var marker_79278d730fbdf9be02b21b23d0b7bde1 = L.marker(
+                [32.0, -6.0],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_cb5d899a6153dab5717fda235cc48896 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e227c82e4741749db946f36bebe2d58e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_103a077666b004705298b8651670217d = $(`<div id="html_103a077666b004705298b8651670217d" style="width: 100.0%; height: 100.0%;"><b>Argane Tichka Restaurant</b><br>1 borne 12,8kw  Type  2</div>`)[0];
+                popup_e227c82e4741749db946f36bebe2d58e.setContent(html_103a077666b004705298b8651670217d);
+            
+        
+
+        marker_79278d730fbdf9be02b21b23d0b7bde1.bindPopup(popup_e227c82e4741749db946f36bebe2d58e)
+        ;
+
+        
+    
+    
+            marker_79278d730fbdf9be02b21b23d0b7bde1.bindTooltip(
+                `<div>
+                     Argane Tichka Restaurant
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_79278d730fbdf9be02b21b23d0b7bde1.setIcon(icon_cb5d899a6153dab5717fda235cc48896);
+            
+    
+            var marker_2d321d738d9c8e6a36cc2954183cf21b = L.marker(
+                [31.1735007, -8.8519207],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_060b5d855ebf51950106eb2b98035454 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5cf98aa0e7b1cd17c10f398e365dc47b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d349804eb446c2152a58fef0f3b028a = $(`<div id="html_8d349804eb446c2152a58fef0f3b028a" style="width: 100.0%; height: 100.0%;"><b>Station Winxo Imintanoute  sens Agadir vers Marrackech</b><br>1 borne Type 2     22kw       </div>`)[0];
+                popup_5cf98aa0e7b1cd17c10f398e365dc47b.setContent(html_8d349804eb446c2152a58fef0f3b028a);
+            
+        
+
+        marker_2d321d738d9c8e6a36cc2954183cf21b.bindPopup(popup_5cf98aa0e7b1cd17c10f398e365dc47b)
+        ;
+
+        
+    
+    
+            marker_2d321d738d9c8e6a36cc2954183cf21b.bindTooltip(
+                `<div>
+                     Station Winxo Imintanoute  sens Agadir vers Marrackech
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2d321d738d9c8e6a36cc2954183cf21b.setIcon(icon_060b5d855ebf51950106eb2b98035454);
+            
+    
+            var marker_30936c800ae4349283e24ff90faa9723 = L.marker(
+                [33.5564089, -7.5603683],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_e08319362c4b579b483c261f4407938d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d9bab869c55832e7edc73cbbadc0b6de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2f5cb8bffd64a4536dc1e534e660048 = $(`<div id="html_c2f5cb8bffd64a4536dc1e534e660048" style="width: 100.0%; height: 100.0%;"><b>Afriquia SIDI BOU OTHMANE N9</b><br>1 borne Type 2      22kw</div>`)[0];
+                popup_d9bab869c55832e7edc73cbbadc0b6de.setContent(html_c2f5cb8bffd64a4536dc1e534e660048);
+            
+        
+
+        marker_30936c800ae4349283e24ff90faa9723.bindPopup(popup_d9bab869c55832e7edc73cbbadc0b6de)
+        ;
+
+        
+    
+    
+            marker_30936c800ae4349283e24ff90faa9723.bindTooltip(
+                `<div>
+                     Afriquia SIDI BOU OTHMANE N9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_30936c800ae4349283e24ff90faa9723.setIcon(icon_e08319362c4b579b483c261f4407938d);
+            
+    
+            var marker_d54205b7992ba4945592650c3f41de72 = L.marker(
+                [31.6258257, -7.9891608],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_5e05d48d6938e440f3950ee4a1026a28 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5703ef766dd7de9aa148e53d5136863f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c76f3eb88ed39d69874357e83cf6ff2 = $(`<div id="html_9c76f3eb88ed39d69874357e83cf6ff2" style="width: 100.0%; height: 100.0%;"><b>Station Total Relais La palmeraie</b><br>1 borne Type 2        22kw</div>`)[0];
+                popup_5703ef766dd7de9aa148e53d5136863f.setContent(html_9c76f3eb88ed39d69874357e83cf6ff2);
+            
+        
+
+        marker_d54205b7992ba4945592650c3f41de72.bindPopup(popup_5703ef766dd7de9aa148e53d5136863f)
+        ;
+
+        
+    
+    
+            marker_d54205b7992ba4945592650c3f41de72.bindTooltip(
+                `<div>
+                     Station Total Relais La palmeraie
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d54205b7992ba4945592650c3f41de72.setIcon(icon_5e05d48d6938e440f3950ee4a1026a28);
+            
+    
+            var marker_dc2b28f35cb8f5590f532843fc33e85d = L.marker(
+                [31.6258257, -7.9891608],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_7f33a21de5e58a53e2453770805bcdd9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bf39a1663776e1d624db0d693a5e6d2a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dd27a5aa48aa1cc38e134bbb5a2c3fab = $(`<div id="html_dd27a5aa48aa1cc38e134bbb5a2c3fab" style="width: 100.0%; height: 100.0%;"><b>Station-service Total Djebilet</b><br>1 borne Type 2      22kw</div>`)[0];
+                popup_bf39a1663776e1d624db0d693a5e6d2a.setContent(html_dd27a5aa48aa1cc38e134bbb5a2c3fab);
+            
+        
+
+        marker_dc2b28f35cb8f5590f532843fc33e85d.bindPopup(popup_bf39a1663776e1d624db0d693a5e6d2a)
+        ;
+
+        
+    
+    
+            marker_dc2b28f35cb8f5590f532843fc33e85d.bindTooltip(
+                `<div>
+                     Station-service Total Djebilet
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_dc2b28f35cb8f5590f532843fc33e85d.setIcon(icon_7f33a21de5e58a53e2453770805bcdd9);
+            
+    
+            var marker_17642522cb13fc56fc374c44df2007fb = L.marker(
+                [31.6258257, -7.9891608],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_a0db113ccf548c8e41562f7e0a62997b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_72f233f8182f3d9c36aa88570917e681 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c62de7cc34c56b456083ea808cf18f15 = $(`<div id="html_c62de7cc34c56b456083ea808cf18f15" style="width: 100.0%; height: 100.0%;"><b>Direction Régionale de l'Environnement - Région de Marrakech Safi</b><br>2 bornes Type 2     22kw</div>`)[0];
+                popup_72f233f8182f3d9c36aa88570917e681.setContent(html_c62de7cc34c56b456083ea808cf18f15);
+            
+        
+
+        marker_17642522cb13fc56fc374c44df2007fb.bindPopup(popup_72f233f8182f3d9c36aa88570917e681)
+        ;
+
+        
+    
+    
+            marker_17642522cb13fc56fc374c44df2007fb.bindTooltip(
+                `<div>
+                     Direction Régionale de l'Environnement - Région de Marrakech Safi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_17642522cb13fc56fc374c44df2007fb.setIcon(icon_a0db113ccf548c8e41562f7e0a62997b);
+            
+    
+            var marker_65313e07ef03667839aabb84e66ca408 = L.marker(
+                [31.6258257, -7.9891608],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_9c59b1f4a62d5b895e0241a1aca2fff6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6719343c3459217b29a03c107096df42 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5773320e9c7c37577e6d1fcfbcf7b2c4 = $(`<div id="html_5773320e9c7c37577e6d1fcfbcf7b2c4" style="width: 100.0%; height: 100.0%;"><b>Avenue Mohammed V Hotel de ville Albaladia</b><br>1 borne Type 2      22kw</div>`)[0];
+                popup_6719343c3459217b29a03c107096df42.setContent(html_5773320e9c7c37577e6d1fcfbcf7b2c4);
+            
+        
+
+        marker_65313e07ef03667839aabb84e66ca408.bindPopup(popup_6719343c3459217b29a03c107096df42)
+        ;
+
+        
+    
+    
+            marker_65313e07ef03667839aabb84e66ca408.bindTooltip(
+                `<div>
+                     Avenue Mohammed V Hotel de ville Albaladia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_65313e07ef03667839aabb84e66ca408.setIcon(icon_9c59b1f4a62d5b895e0241a1aca2fff6);
+            
+    
+            var marker_7a5f1c5ede12c16d221e8f895abcee58 = L.marker(
+                [31.6258257, -7.9891608],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_c6b992a1ee5be9b28053b1f1697f6cc6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_731db881872f2d0368db97d074a0b96c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b325950ad22346bb70474da415f89ea4 = $(`<div id="html_b325950ad22346bb70474da415f89ea4" style="width: 100.0%; height: 100.0%;"><b>Mövenpick Hotel Mansour Eddahbi Marrakech</b><br>2 bornes  Tesla 22kw,  20 bornes Type 2  3,7kw</div>`)[0];
+                popup_731db881872f2d0368db97d074a0b96c.setContent(html_b325950ad22346bb70474da415f89ea4);
+            
+        
+
+        marker_7a5f1c5ede12c16d221e8f895abcee58.bindPopup(popup_731db881872f2d0368db97d074a0b96c)
+        ;
+
+        
+    
+    
+            marker_7a5f1c5ede12c16d221e8f895abcee58.bindTooltip(
+                `<div>
+                     Mövenpick Hotel Mansour Eddahbi Marrakech
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7a5f1c5ede12c16d221e8f895abcee58.setIcon(icon_c6b992a1ee5be9b28053b1f1697f6cc6);
+            
+    
+            var marker_d8515c5cc7c980bd393ae90af14f745c = L.marker(
+                [31.5924303, -8.0424227],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_b390ba5e80457ec83c4bc78514f8d2a8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_109783f6a98aedffa4a55f365d5b87c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c71074e28cb212f9d51060dab93b345f = $(`<div id="html_c71074e28cb212f9d51060dab93b345f" style="width: 100.0%; height: 100.0%;"><b>Avenue Annakhil</b><br>1 borne Type 2   7kw</div>`)[0];
+                popup_109783f6a98aedffa4a55f365d5b87c4.setContent(html_c71074e28cb212f9d51060dab93b345f);
+            
+        
+
+        marker_d8515c5cc7c980bd393ae90af14f745c.bindPopup(popup_109783f6a98aedffa4a55f365d5b87c4)
+        ;
+
+        
+    
+    
+            marker_d8515c5cc7c980bd393ae90af14f745c.bindTooltip(
+                `<div>
+                     Avenue Annakhil
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d8515c5cc7c980bd393ae90af14f745c.setIcon(icon_b390ba5e80457ec83c4bc78514f8d2a8);
+            
+    
+            var marker_e4e3b4a230e6800c22fdab9737f0f4cb = L.marker(
+                [31.6258257, -7.9891608],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_a3c3bc71b4683a5ac8b05f589d99844a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9ea572b3141583c25872066690b54294 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_95f48821b89e44a09b018232483a4943 = $(`<div id="html_95f48821b89e44a09b018232483a4943" style="width: 100.0%; height: 100.0%;"><b>Kech Boutique Hôtel & Spa</b><br>1 borne Three Phase  3kw</div>`)[0];
+                popup_9ea572b3141583c25872066690b54294.setContent(html_95f48821b89e44a09b018232483a4943);
+            
+        
+
+        marker_e4e3b4a230e6800c22fdab9737f0f4cb.bindPopup(popup_9ea572b3141583c25872066690b54294)
+        ;
+
+        
+    
+    
+            marker_e4e3b4a230e6800c22fdab9737f0f4cb.bindTooltip(
+                `<div>
+                     Kech Boutique Hôtel & Spa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e4e3b4a230e6800c22fdab9737f0f4cb.setIcon(icon_a3c3bc71b4683a5ac8b05f589d99844a);
+            
+    
+            var marker_8a595a6e42f22d571e8c285cab7cc5a2 = L.marker(
+                [31.6258257, -7.9891608],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_3a6314d33d743e06890e0cd9f839c7f6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d869f26be3a6481b38bbf8d337131808 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e745905fe2740ba2573656ceb98e87c8 = $(`<div id="html_e745905fe2740ba2573656ceb98e87c8" style="width: 100.0%; height: 100.0%;"><b>Kenzi Club Agdal Medina</b><br>1 borne Type 2     22kw</div>`)[0];
+                popup_d869f26be3a6481b38bbf8d337131808.setContent(html_e745905fe2740ba2573656ceb98e87c8);
+            
+        
+
+        marker_8a595a6e42f22d571e8c285cab7cc5a2.bindPopup(popup_d869f26be3a6481b38bbf8d337131808)
+        ;
+
+        
+    
+    
+            marker_8a595a6e42f22d571e8c285cab7cc5a2.bindTooltip(
+                `<div>
+                     Kenzi Club Agdal Medina
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8a595a6e42f22d571e8c285cab7cc5a2.setIcon(icon_3a6314d33d743e06890e0cd9f839c7f6);
+            
+    
+            var marker_efd7703a0bcd0cd26d8ab08e4ead5038 = L.marker(
+                [31.6258257, -7.9891608],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_be73fbe5272eaad86c7a80561602d3d6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_470f7f4361b61a3f8d7c2685a3a9dd71 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc495d48746c10b3a00c1c0eea084c2b = $(`<div id="html_bc495d48746c10b3a00c1c0eea084c2b" style="width: 100.0%; height: 100.0%;"><b>Restaurant Gusto Marrakech</b><br>1 borne  Type 2       3kw</div>`)[0];
+                popup_470f7f4361b61a3f8d7c2685a3a9dd71.setContent(html_bc495d48746c10b3a00c1c0eea084c2b);
+            
+        
+
+        marker_efd7703a0bcd0cd26d8ab08e4ead5038.bindPopup(popup_470f7f4361b61a3f8d7c2685a3a9dd71)
+        ;
+
+        
+    
+    
+            marker_efd7703a0bcd0cd26d8ab08e4ead5038.bindTooltip(
+                `<div>
+                     Restaurant Gusto Marrakech
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_efd7703a0bcd0cd26d8ab08e4ead5038.setIcon(icon_be73fbe5272eaad86c7a80561602d3d6);
+            
+    
+            var marker_6ae55323ced5deb8fb0c6bcc43830bdb = L.marker(
+                [31.5291153, -7.0869273],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_f41541a4f587cfb9f5a600f382eee51a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d2fc61af41a1dba2566275bb2b77253e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_07b06e92a509ca004fd97566975bc80b = $(`<div id="html_07b06e92a509ca004fd97566975bc80b" style="width: 100.0%; height: 100.0%;"><b>Station Sun Pack</b><br>1 borne Type 2    22kw</div>`)[0];
+                popup_d2fc61af41a1dba2566275bb2b77253e.setContent(html_07b06e92a509ca004fd97566975bc80b);
+            
+        
+
+        marker_6ae55323ced5deb8fb0c6bcc43830bdb.bindPopup(popup_d2fc61af41a1dba2566275bb2b77253e)
+        ;
+
+        
+    
+    
+            marker_6ae55323ced5deb8fb0c6bcc43830bdb.bindTooltip(
+                `<div>
+                     Station Sun Pack
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6ae55323ced5deb8fb0c6bcc43830bdb.setIcon(icon_f41541a4f587cfb9f5a600f382eee51a);
+            
+    
+            var marker_f3231b71a121bf8dd08171cd8e64c1d1 = L.marker(
+                [32.0, -6.0],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_fde818983e9f652e0a6ad33384432f39 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0def7160333992a3d73858f390d90c89 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_795207af2dbb423025f0295aee602086 = $(`<div id="html_795207af2dbb423025f0295aee602086" style="width: 100.0%; height: 100.0%;"><b>Hôtel Fairmont Royal Palm Marrackech</b><br>1 borne domestique   3kw</div>`)[0];
+                popup_0def7160333992a3d73858f390d90c89.setContent(html_795207af2dbb423025f0295aee602086);
+            
+        
+
+        marker_f3231b71a121bf8dd08171cd8e64c1d1.bindPopup(popup_0def7160333992a3d73858f390d90c89)
+        ;
+
+        
+    
+    
+            marker_f3231b71a121bf8dd08171cd8e64c1d1.bindTooltip(
+                `<div>
+                     Hôtel Fairmont Royal Palm Marrackech
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f3231b71a121bf8dd08171cd8e64c1d1.setIcon(icon_fde818983e9f652e0a6ad33384432f39);
+            
+    
+            var marker_12255ff8fd0a5656563142cb433d7e2b = L.marker(
+                [31.666045, -7.7875408],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_7dc525060cf58b736d7983300de2c9be = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8e8471e0d3a0a20e09ef4ea4d4c6a254 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe69f898cd90ef7b07c3da68a788f138 = $(`<div id="html_fe69f898cd90ef7b07c3da68a788f138" style="width: 100.0%; height: 100.0%;"><b>Station Total Relais Chichaoua</b><br>1 borne Type 2    22kw accéléré</div>`)[0];
+                popup_8e8471e0d3a0a20e09ef4ea4d4c6a254.setContent(html_fe69f898cd90ef7b07c3da68a788f138);
+            
+        
+
+        marker_12255ff8fd0a5656563142cb433d7e2b.bindPopup(popup_8e8471e0d3a0a20e09ef4ea4d4c6a254)
+        ;
+
+        
+    
+    
+            marker_12255ff8fd0a5656563142cb433d7e2b.bindTooltip(
+                `<div>
+                     Station Total Relais Chichaoua
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_12255ff8fd0a5656563142cb433d7e2b.setIcon(icon_7dc525060cf58b736d7983300de2c9be);
+            
+    
+            var marker_2fabc5c9739de577e7716d0c1a54b004 = L.marker(
+                [32.0, -6.0],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_b35ef5a904035cab6c6082e51913350b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_090eb3c713cb3a420f3cfc0942cd8ded = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c2cf6e3619cd0f70b76e3c70f41f7ad = $(`<div id="html_0c2cf6e3619cd0f70b76e3c70f41f7ad" style="width: 100.0%; height: 100.0%;"><b>Argane Tichka Restaurant</b><br>1 borne 12,8kw </div>`)[0];
+                popup_090eb3c713cb3a420f3cfc0942cd8ded.setContent(html_0c2cf6e3619cd0f70b76e3c70f41f7ad);
+            
+        
+
+        marker_2fabc5c9739de577e7716d0c1a54b004.bindPopup(popup_090eb3c713cb3a420f3cfc0942cd8ded)
+        ;
+
+        
+    
+    
+            marker_2fabc5c9739de577e7716d0c1a54b004.bindTooltip(
+                `<div>
+                     Argane Tichka Restaurant
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2fabc5c9739de577e7716d0c1a54b004.setIcon(icon_b35ef5a904035cab6c6082e51913350b);
+            
+    
+            var marker_354b2244c8edd2387f90c0ca9b9225a9 = L.marker(
+                [30.4205162, -9.5838532],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_fa002ef1fd2a86ee1e910e0e894e6787 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a113a08886a8f194023fae0088c5d433 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1c12322a6859a4d1319982947f322c3 = $(`<div id="html_f1c12322a6859a4d1319982947f322c3" style="width: 100.0%; height: 100.0%;"><b>Atlas Kasbah Ecolodge</b><br>1 borne 11kw et 1 borne 3,7kw   RECHARGE PAYANTE</div>`)[0];
+                popup_a113a08886a8f194023fae0088c5d433.setContent(html_f1c12322a6859a4d1319982947f322c3);
+            
+        
+
+        marker_354b2244c8edd2387f90c0ca9b9225a9.bindPopup(popup_a113a08886a8f194023fae0088c5d433)
+        ;
+
+        
+    
+    
+            marker_354b2244c8edd2387f90c0ca9b9225a9.bindTooltip(
+                `<div>
+                     Atlas Kasbah Ecolodge
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_354b2244c8edd2387f90c0ca9b9225a9.setIcon(icon_fa002ef1fd2a86ee1e910e0e894e6787);
+            
+    
+            var marker_dbbd6138fa1a0fd0ae3766134c30b7ea = L.marker(
+                [30.375281, -9.528495],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_7d763bc66ab8fed03add08531333f467 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8142c183e91f72387de7c4b5b43cb54a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89a866bf0c8ff45ccf043e9da95a9b10 = $(`<div id="html_89a866bf0c8ff45ccf043e9da95a9b10" style="width: 100.0%; height: 100.0%;"><b>GTR AGADIR</b><br>1 borne Type 2    22KW</div>`)[0];
+                popup_8142c183e91f72387de7c4b5b43cb54a.setContent(html_89a866bf0c8ff45ccf043e9da95a9b10);
+            
+        
+
+        marker_dbbd6138fa1a0fd0ae3766134c30b7ea.bindPopup(popup_8142c183e91f72387de7c4b5b43cb54a)
+        ;
+
+        
+    
+    
+            marker_dbbd6138fa1a0fd0ae3766134c30b7ea.bindTooltip(
+                `<div>
+                     GTR AGADIR
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_dbbd6138fa1a0fd0ae3766134c30b7ea.setIcon(icon_7d763bc66ab8fed03add08531333f467);
+            
+    
+            var marker_574cefb5114c76c2e0bd2936e4e2bc72 = L.marker(
+                [31.6258257, -7.9891608],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_639de5b8e5aa206178bbc4998c8eb5e7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_af292a6ef3818b50fe812ad1b2b5366d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0224787afede249420cb4c1b5466231c = $(`<div id="html_0224787afede249420cb4c1b5466231c" style="width: 100.0%; height: 100.0%;"><b>Ceramic pro</b><br>2 bornes Type 2    22kw</div>`)[0];
+                popup_af292a6ef3818b50fe812ad1b2b5366d.setContent(html_0224787afede249420cb4c1b5466231c);
+            
+        
+
+        marker_574cefb5114c76c2e0bd2936e4e2bc72.bindPopup(popup_af292a6ef3818b50fe812ad1b2b5366d)
+        ;
+
+        
+    
+    
+            marker_574cefb5114c76c2e0bd2936e4e2bc72.bindTooltip(
+                `<div>
+                     Ceramic pro
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_574cefb5114c76c2e0bd2936e4e2bc72.setIcon(icon_639de5b8e5aa206178bbc4998c8eb5e7);
+            
+    
+            var marker_d64574bd63c00c4de9bea128246969e5 = L.marker(
+                [27.154512, -13.1953921],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_56516b84d01a786a79f0c7dd9e491819 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8bf11cb596857099e18bc5634a2964e0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5352636a726f76d766bd414df170dcdc = $(`<div id="html_5352636a726f76d766bd414df170dcdc" style="width: 100.0%; height: 100.0%;"><b>Hotel La Grande Gare    Rue Ibn Tabir</b><br>1 borne domestique   2,3kw            RECHARGE PAYANTE</div>`)[0];
+                popup_8bf11cb596857099e18bc5634a2964e0.setContent(html_5352636a726f76d766bd414df170dcdc);
+            
+        
+
+        marker_d64574bd63c00c4de9bea128246969e5.bindPopup(popup_8bf11cb596857099e18bc5634a2964e0)
+        ;
+
+        
+    
+    
+            marker_d64574bd63c00c4de9bea128246969e5.bindTooltip(
+                `<div>
+                     Hotel La Grande Gare    Rue Ibn Tabir
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d64574bd63c00c4de9bea128246969e5.setIcon(icon_56516b84d01a786a79f0c7dd9e491819);
+            
+    
+            var marker_f5525024d55b7597d289a93d4abfe699 = L.marker(
+                [26.1263378, -14.4836537],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_f5d53d6bf8835cd84865802f9b78e582 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_865f3a8ce71c0d7dc44b21f406212de3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9a8e991f62a9aec79d6c6f3a16459cd8 = $(`<div id="html_9a8e991f62a9aec79d6c6f3a16459cd8" style="width: 100.0%; height: 100.0%;"><b>Hotel Manarat Boujdour</b><br>1 borne domestique  2,4kw  RECHARGE PAYANTE</div>`)[0];
+                popup_865f3a8ce71c0d7dc44b21f406212de3.setContent(html_9a8e991f62a9aec79d6c6f3a16459cd8);
+            
+        
+
+        marker_f5525024d55b7597d289a93d4abfe699.bindPopup(popup_865f3a8ce71c0d7dc44b21f406212de3)
+        ;
+
+        
+    
+    
+            marker_f5525024d55b7597d289a93d4abfe699.bindTooltip(
+                `<div>
+                     Hotel Manarat Boujdour
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f5525024d55b7597d289a93d4abfe699.setIcon(icon_f5d53d6bf8835cd84865802f9b78e582);
+            
+    
+            var marker_faf6ade916fca0d589be5f17402e801f = L.marker(
+                [23.6940663, -15.9431274],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_4dc1e62c380986ae645844eb778e5c89 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ac316dde290c3b1e3a6206f8f67cb3ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a97f4d23cf0d8923a6ab06560c958308 = $(`<div id="html_a97f4d23cf0d8923a6ab06560c958308" style="width: 100.0%; height: 100.0%;"><b>Hôtel Dakhla club</b><br>1 borne domestique  7,5kw</div>`)[0];
+                popup_ac316dde290c3b1e3a6206f8f67cb3ee.setContent(html_a97f4d23cf0d8923a6ab06560c958308);
+            
+        
+
+        marker_faf6ade916fca0d589be5f17402e801f.bindPopup(popup_ac316dde290c3b1e3a6206f8f67cb3ee)
+        ;
+
+        
+    
+    
+            marker_faf6ade916fca0d589be5f17402e801f.bindTooltip(
+                `<div>
+                     Hôtel Dakhla club
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_faf6ade916fca0d589be5f17402e801f.setIcon(icon_4dc1e62c380986ae645844eb778e5c89);
+            
+    
+            var marker_b01fecfccdeb3d6af4ca8db5798966d5 = L.marker(
+                [21.613729, -16.471069],
+                {
+}
+            ).addTo(map_7fe7cefcf38180bec1baff365fa38146);
+        
+    
+            var icon_245e242aa75f207af779d1e22eac3cd5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2748c82b1dafab1f349d2fec3c25dd19 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_947447b772017010c898f4c07819cf8c = $(`<div id="html_947447b772017010c898f4c07819cf8c" style="width: 100.0%; height: 100.0%;"><b>Hotel Barbas</b><br>1 prise domestique  3kw </div>`)[0];
+                popup_2748c82b1dafab1f349d2fec3c25dd19.setContent(html_947447b772017010c898f4c07819cf8c);
+            
+        
+
+        marker_b01fecfccdeb3d6af4ca8db5798966d5.bindPopup(popup_2748c82b1dafab1f349d2fec3c25dd19)
+        ;
+
+        
+    
+    
+            marker_b01fecfccdeb3d6af4ca8db5798966d5.bindTooltip(
+                `<div>
+                     Hotel Barbas
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b01fecfccdeb3d6af4ca8db5798966d5.setIcon(icon_245e242aa75f207af779d1e22eac3cd5);
+            
+</script>
+</html>
