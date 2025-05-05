@@ -104,7 +104,7 @@ Available Airflow DAGs:
 
 ## 👥 Contributors
 
-- [Your Name](https://github.com/your-username) - Project Lead & Main Developer
+- [Ayoub Anhal](https://github.com/your-username) - Big Data & AI Engineer
 
 ## 📄 License
 
