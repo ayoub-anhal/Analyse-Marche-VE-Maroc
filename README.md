@@ -113,4 +113,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For questions or collaborations, don't hesitate to reach out:
 
 - Email: ayoubanhal01@gmail.com
-- LinkedIn: [Your Profile](www.linkedin.com/in/ayoub-anhal)
+- LinkedIn: [ayoub-anhal](www.linkedin.com/in/ayoub-anhal)
