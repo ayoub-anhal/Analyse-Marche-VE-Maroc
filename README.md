@@ -98,9 +98,7 @@ Available Airflow DAGs:
 ## 📈 Roadmap
 
 - [ ] Integration of real-time data source APIs
-- [ ] Addition of predictive models for trend analysis
 - [ ] Geographic coverage extension to North Africa
-- [ ] Automated reporting module with PDF export
 
 ## 👥 Contributors
 
