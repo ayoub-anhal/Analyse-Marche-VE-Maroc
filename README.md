@@ -104,7 +104,7 @@ Available Airflow DAGs:
 
 ## 👥 Contributors
 
-- [Ayoub Anhal](https://github.com/your-username) - Big Data & AI Engineer
+- [Ayoub Anhal](https://github.com/ayoub-anhal) - Big Data & AI Engineer
 
 ## 📄 License
 
@@ -115,5 +115,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For questions or collaborations, don't hesitate to reach out:
 
 - Email: contact@your-domain.com
-- Website: [www.your-domain.com](https://www.your-domain.com)
 - LinkedIn: [Your Profile](https://www.linkedin.com/in/your-profile/)
